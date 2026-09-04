@@ -1,0 +1,98 @@
+[
+  {
+    "id": 49,
+    "slug": "neck",
+    "name": "Neck",
+    "description": "Cervical spine and surrounding musculature."
+  },
+  {
+    "id": 50,
+    "slug": "jaw",
+    "name": "Jaw / Face",
+    "description": "Temporomandibular region and muscles of mastication."
+  },
+  {
+    "id": 51,
+    "slug": "shoulder",
+    "name": "Shoulder",
+    "description": "Glenohumeral joint, rotator cuff and scapular stabilisers."
+  },
+  {
+    "id": 52,
+    "slug": "upper-back",
+    "name": "Upper Back",
+    "description": "Thoracic spine and scapulothoracic musculature."
+  },
+  {
+    "id": 53,
+    "slug": "chest",
+    "name": "Chest",
+    "description": "Pectoral region."
+  },
+  {
+    "id": 54,
+    "slug": "lower-back",
+    "name": "Lower Back",
+    "description": "Lumbar spine, lumbopelvic and core musculature."
+  },
+  {
+    "id": 55,
+    "slug": "elbow",
+    "name": "Elbow",
+    "description": "Elbow joint and its flexors/extensors."
+  },
+  {
+    "id": 56,
+    "slug": "forearm",
+    "name": "Forearm",
+    "description": "Forearm flexor/extensor compartments and tendons."
+  },
+  {
+    "id": 57,
+    "slug": "wrist",
+    "name": "Wrist",
+    "description": "Radiocarpal joint and carpal structures."
+  },
+  {
+    "id": 58,
+    "slug": "hand",
+    "name": "Hand",
+    "description": "Intrinsic hand muscles and thumb complex."
+  },
+  {
+    "id": 59,
+    "slug": "hip",
+    "name": "Hip / Pelvis",
+    "description": "Hip joint, deep hip rotators and pelvic girdle."
+  },
+  {
+    "id": 60,
+    "slug": "knee",
+    "name": "Knee",
+    "description": "Tibiofemoral and patellofemoral joints."
+  },
+  {
+    "id": 61,
+    "slug": "calf",
+    "name": "Calf / Lower Leg",
+    "description": "Superficial and deep posterior, anterior and lateral compartments."
+  },
+  {
+    "id": 62,
+    "slug": "ankle",
+    "name": "Ankle",
+    "description": "Talocrural and subtalar joints with associated ligaments."
+  },
+  {
+    "id": 63,
+    "slug": "foot",
+    "name": "Foot",
+    "description": "Plantar fascia, intrinsic foot muscles and toe joints."
+  },
+  {
+    "id": 64,
+    "slug": "whole-body",
+    "name": "Whole Body",
+    "description": "Systemic / multi-region exercises (breathing, recovery, warm-ups)."
+  }
+]

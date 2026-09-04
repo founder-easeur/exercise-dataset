@@ -1,0 +1,4 @@
+# Snapshot of https://www.orthoinfo.org/robots.txt fetched 2026-09-04
+# The server returns a 404 HTML page for /robots.txt (no directives exist).
+# Per standard convention (RFC 9309), a 404 robots.txt means crawling is allowed.
+# Parsed as: no User-agent/Disallow directives.
