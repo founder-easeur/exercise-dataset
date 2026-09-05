@@ -80,3 +80,37 @@ body {
 ::-webkit-scrollbar-track {
   background: transparent;
 }
+
+/* --- Animated pose diagram (movement preview) --- */
+.pose-rotate { animation: poseRotate 2.6s ease-in-out infinite; }
+.pose-sway { animation: poseSway 3s ease-in-out infinite; }
+.pose-swing { animation: poseSwing 2.3s ease-in-out infinite; }
+.pose-pulse { animation: posePulse 2.6s ease-in-out infinite; }
+.pose-marker { animation: markerPulse 2s ease-in-out infinite; }
+
+@keyframes poseRotate {
+  0%, 100% { transform: rotate(-9deg); }
+  50% { transform: rotate(9deg); }
+}
+@keyframes poseSway {
+  0%, 100% { transform: rotate(-4deg); }
+  50% { transform: rotate(5deg); }
+}
+@keyframes poseSwing {
+  0%, 100% { transform: translateX(-5px) rotate(-3deg); }
+  50% { transform: translateX(5px) rotate(3deg); }
+}
+@keyframes posePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+@keyframes markerPulse {
+  0%, 100% { opacity: 0.25; r: 14; }
+  50% { opacity: 0.5; r: 18; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pose-rotate, .pose-sway, .pose-swing, .pose-pulse, .pose-marker {
+    animation: none;
+  }
+}

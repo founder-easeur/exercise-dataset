@@ -10,6 +10,7 @@ from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from app.enums import RecordOrigin, ReviewStatus
+from app.media_registry import resolve_media
 from app.models import (
     BodyRegion, DatasetVersion, Equipment, Exercise, ExerciseBodyRegion,
     ExerciseEquipment, ExerciseJoint, ExerciseMuscle, ExerciseType, Joint,
@@ -51,6 +52,7 @@ def exercise_row(db: Session, ex: Exercise, full: bool = True) -> dict:
         "review_status": ex.review_status.value,
         "is_medical_claim": ex.is_medical_claim,
         "source_count": len(ex.sources or []),
+        "media": resolve_media(ex),
         "updated_at": ex.updated_at.isoformat() if ex.updated_at else None,
     }
     if full:

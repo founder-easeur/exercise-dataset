@@ -113,8 +113,13 @@ CLI also provides: `pipeline {crawl|postprocess|report|run-all}`, `export --data
    meets the 2D requirement; no front/side/back full rotation.
 6. **Docker Compose is the only packaged deployment**; no k8s manifests, no
    horizontal crawler workers.
-7. **Media**: no images/video are stored or proxied — outbound links only
-   (licensing posture D7).
+7. **Media**: no photos/GIFs are scraped from sources (licensing posture D7).
+   Visuals are project-owned AI-generated illustrations (10 shipped, mapped per
+   body region with rehabilitation overrides; knee/ankle/whole-body assets land
+   in the next batch — lower-limb exercises temporarily use the hip
+   illustration) plus client-rendered animated SVG movement previews built from
+   structured data. Source-licensed media requires explicit permission and a
+   future `media_assets` table.
 
 ## 6. Next steps
 

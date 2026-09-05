@@ -12,6 +12,15 @@ export interface MuscleRef {
   role: string;
   structure_type?: string;
 }
+export interface MediaRef {
+  kind: string;
+  url: string;
+  license: string;
+  credit: string;
+  origin: string;
+  file?: string;
+  region?: string;
+}
 export interface ExerciseSummary {
   id: number;
   slug: string;
@@ -30,6 +39,7 @@ export interface ExerciseSummary {
   origin: string;
   is_medical_claim: boolean;
   source_count: number;
+  media?: MediaRef[];
 }
 export interface SourceRef {
   source_id: number;

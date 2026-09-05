@@ -55,6 +55,12 @@ confidence score, and source-document links. Conflicting source facts are
 **recorded, never silently resolved**. AI enrichment (optional, off by default)
 is capped, tagged and always review-gated.
 
+**Exercise media** ships licensing-clean: project-owned AI illustrations (one
+per body area, served at `/static/exercises/…` and exposed via the `media[]`
+API field + exports) plus animated SVG movement previews rendered per exercise
+from position/movement/target-region data. No copyrighted photos or GIFs are
+copied from sources.
+
 Two crawl modes: **live** and **replay** — v0.1 aggregation ran deterministically
 from the stored corpus in `backend/corpus/`.
 

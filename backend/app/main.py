@@ -1,8 +1,11 @@
 """FastAPI application entrypoint."""
 from __future__ import annotations
 
+from pathlib import Path
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
 
 from app import __version__
 from app.api import v1
@@ -33,6 +36,11 @@ app.add_middleware(
 )
 
 app.include_router(v1.router)
+
+# Project-owned exercise illustrations (see app/media_registry.py for policy).
+_MEDIA_DIR = Path(__file__).resolve().parent.parent / "media"
+if _MEDIA_DIR.is_dir():
+    app.mount("/static", StaticFiles(directory=str(_MEDIA_DIR)), name="media")
 
 
 @app.get("/health", tags=["meta"])

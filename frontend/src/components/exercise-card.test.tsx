@@ -37,6 +37,17 @@ describe("ExerciseCard", () => {
     expect(screen.getByText("2 sources")).toBeInTheDocument();
   });
 
+  it("shows the illustration thumbnail when media is present", () => {
+    const { rerender } = render(
+      <ExerciseCard ex={{ ...base, media: [{ kind: "illustration", url: "/static/exercises/neck.png", license: "ai-generated", credit: "AI-generated", origin: "generated" }] }} />,
+    );
+    const img = screen.getByAltText("Illustration of Neck Rotation") as HTMLImageElement;
+    expect(img).toBeInTheDocument();
+    expect(img.src).toContain("/static/exercises/neck.png");
+    rerender(<ExerciseCard ex={base} />);
+    expect(screen.queryByAltText("Illustration of Neck Rotation")).not.toBeInTheDocument();
+  });
+
   it("labels non-muscle structures", () => {
     render(<ExerciseCard ex={base} />);
     expect(screen.getAllByText(/fascia/).length).toBeGreaterThanOrEqual(2);

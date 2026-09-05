@@ -1,6 +1,7 @@
 """Dict serializers for API responses (used by API + exports)."""
 from __future__ import annotations
 
+from app.media_registry import resolve_media
 from app.models import (
     BodyRegion, DataConflict, Exercise, ExerciseSource, Joint, Muscle,
     Provenance, ReviewQueueItem, Source, SourceDocument,
@@ -32,6 +33,7 @@ def exercise_summary(ex: Exercise) -> dict:
         "origin": ex.origin.value,
         "is_medical_claim": ex.is_medical_claim,
         "source_count": len(ex.sources or []),
+        "media": resolve_media(ex),
     }
 
 

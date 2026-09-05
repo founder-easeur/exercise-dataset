@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import {
   Badge, Card, ConfidenceBar, KeyValue, MedicalBadge, OriginBadge, ReviewStatusPill,
 } from "@/components/ui";
+import { PoseDiagram } from "@/components/pose-diagram";
 import { serverGet } from "@/lib/server-api";
 import type { ExerciseDetail } from "@/lib/api";
 
@@ -236,6 +237,29 @@ export default async function ExerciseDetailPage({
 
         {/* Sidebar */}
         <div className="space-y-5">
+          {ex.media && ex.media.length > 0 ? (
+            <Card className="overflow-hidden">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={ex.media[0].url} alt={`Illustration of ${ex.name}`} className="h-48 w-full object-cover" />
+              <div className="px-4 py-2.5 text-[11px] leading-relaxed text-muted">
+                {ex.media[0].credit}
+              </div>
+            </Card>
+          ) : null}
+
+          <Card className="p-5">
+            <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide text-muted">Movement preview</h2>
+            <p className="mb-2 text-xs text-muted">
+              Generated from structured data — {ex.position ? <span className="capitalize">{ex.position}</span> : "unspecified"} position
+              {ex.movement_pattern ? <> · <span className="capitalize">{ex.movement_pattern}</span></> : null}. Pulsing markers show target regions.
+            </p>
+            <PoseDiagram
+              position={ex.position}
+              movement={ex.movement_pattern}
+              regions={ex.body_regions.map((r) => r.slug)}
+            />
+          </Card>
+
           <Card className="p-5">
             <h2 className="mb-3 text-sm font-semibold uppercase tracking-wide text-muted">At a glance</h2>
             <KeyValue label="Body regions">

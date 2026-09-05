@@ -80,13 +80,19 @@ the review queue and is audit-logged.
 **Decision.** Every source carries license / commercial-use / attribution
 fields. Unknown → excluded from redistribution posture and flagged. The corpus
 stores **structured facts, metadata and bounded excerpts with links** — never
-full article text — and no media is copied (descriptions + outbound links
-only). Sources whose terms are unclear (e.g. NHS Inform) are marked restricted
-and used for facts only.
+full article text. Exercise **media** is never scraped from sources: visuals
+are (a) project-owned AI-generated illustrations (`backend/media/exercises/`,
+tracked in `app/media_registry.py` with license metadata `ai-generated`, served
+under `/static/exercises/`, exposed via the `media[]` API field and exports),
+and (b) animated SVG movement previews rendered client-side from structured
+data (position + movement pattern + target regions — code, not media). A
+future `media_assets` table can hold source-licensed photos/GIFs when a source
+explicitly permits reuse; the serializer contract (`kind/url/license/credit`)
+is shaped for that.
 
 **Why.** workout.easeur.com is commercial; "ask forgiveness" scraping is not an
-option. Facts themselves are not copyrightable, but expression is — hence
-extraction, not republication.
+option. Facts themselves are not copyrightable, but expression — including
+photos and GIFs — is, so imagery is generated or rendered, never copied.
 
 ## D8 — Crawler: replay corpus + live mode, robots-first, SSRF-guarded
 
