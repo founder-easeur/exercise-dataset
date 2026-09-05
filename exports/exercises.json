@@ -1,224 +1,9 @@
 {
-  "exported_at": "2026-09-04T20:44:01.954290+00:00",
+  "exported_at": "2026-09-05T20:07:37.042206+00:00",
   "count": 148,
   "exercises": [
     {
-      "id": 211,
-      "slug": "prone-t-raise",
-      "name": "Prone T Raise",
-      "aliases": [
-        "prone T",
-        "rhomboid T raise"
-      ],
-      "type": "strength",
-      "type_name": "Strength",
-      "difficulty": "beginner",
-      "position": "prone",
-      "movement_pattern": "retraction",
-      "body_regions": [
-        {
-          "slug": "upper-back",
-          "name": "Upper Back",
-          "role": "primary"
-        }
-      ],
-      "muscles": [
-        {
-          "slug": "rhomboid-major",
-          "name": "Rhomboid Major",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "rhomboid-minor",
-          "name": "Rhomboid Minor",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "middle-trapezius",
-          "name": "Middle Trapezius",
-          "role": "primary",
-          "structure_type": "muscle"
-        }
-      ],
-      "primary_muscles": [
-        "rhomboid-major",
-        "rhomboid-minor",
-        "middle-trapezius"
-      ],
-      "joints": [
-        {
-          "slug": "scapulothoracic-joint",
-          "name": "Scapulothoracic Joint",
-          "movement": "retraction"
-        }
-      ],
-      "equipment": [
-        "mat"
-      ],
-      "instructions": "1. Lie face down, arms straight out to the sides, thumbs up.\n2. Squeeze the shoulder blades to lift the arms into a T.\n3. Hold 2-3 seconds, feeling the mid-back work.\n4. Lower with control.",
-      "breathing": "Exhale lifting.",
-      "safety_notes": "Keep the neck relaxed, forehead down.",
-      "contraindications": null,
-      "clinical_relevance": null,
-      "dosage": "3 x 10-12",
-      "origin": "curated",
-      "confidence": 0.92,
-      "review_status": "approved",
-      "is_medical_claim": false,
-      "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.416303+00:00",
-      "sources": []
-    },
-    {
-      "id": 212,
-      "slug": "prone-w-raise",
-      "name": "Prone W Raise",
-      "aliases": [
-        "prone W",
-        "external rotation W"
-      ],
-      "type": "strength",
-      "type_name": "Strength",
-      "difficulty": "beginner",
-      "position": "prone",
-      "movement_pattern": "external rotation",
-      "body_regions": [
-        {
-          "slug": "shoulder",
-          "name": "Shoulder",
-          "role": "primary"
-        },
-        {
-          "slug": "upper-back",
-          "name": "Upper Back",
-          "role": "secondary"
-        }
-      ],
-      "muscles": [
-        {
-          "slug": "infraspinatus",
-          "name": "Infraspinatus",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "teres-minor",
-          "name": "Teres Minor",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "rhomboid-major",
-          "name": "Rhomboid Major",
-          "role": "secondary",
-          "structure_type": "muscle"
-        }
-      ],
-      "primary_muscles": [
-        "infraspinatus",
-        "teres-minor"
-      ],
-      "joints": [
-        {
-          "slug": "glenohumeral-joint",
-          "name": "Glenohumeral Joint",
-          "movement": "external rotation"
-        }
-      ],
-      "equipment": [
-        "mat"
-      ],
-      "instructions": "1. Lie face down, elbows bent in a W beside the ribs.\n2. Rotate the arms to lift the backs of the hands toward the ceiling.\n3. Keep the elbows lightly touching the sides.\n4. Pause 2 seconds and lower slowly.",
-      "breathing": "Exhale lifting.",
-      "safety_notes": "Lift only as high as pain-free rotator control allows.",
-      "contraindications": null,
-      "clinical_relevance": null,
-      "dosage": "3 x 10-12",
-      "origin": "curated",
-      "confidence": 0.92,
-      "review_status": "approved",
-      "is_medical_claim": false,
-      "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.420912+00:00",
-      "sources": []
-    },
-    {
-      "id": 303,
-      "slug": "ankle-alphabet",
-      "name": "Ankle Alphabet",
-      "aliases": [
-        "ankle ABCs",
-        "alphabet ankle mobility"
-      ],
-      "type": "mobility",
-      "type_name": "Mobility",
-      "difficulty": "beginner",
-      "position": "seated",
-      "movement_pattern": "circumduction",
-      "body_regions": [
-        {
-          "slug": "ankle",
-          "name": "Ankle",
-          "role": "primary"
-        }
-      ],
-      "muscles": [
-        {
-          "slug": "tibialis-anterior",
-          "name": "Tibialis Anterior",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "peroneus-longus",
-          "name": "Peroneus Longus",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "extensor-digitorum-longus",
-          "name": "Extensor Digitorum Longus",
-          "role": "secondary",
-          "structure_type": "muscle"
-        }
-      ],
-      "primary_muscles": [
-        "tibialis-anterior",
-        "peroneus-longus"
-      ],
-      "joints": [
-        {
-          "slug": "ankle-joint",
-          "name": "Ankle (Talocrural) Joint",
-          "movement": "circumduction"
-        },
-        {
-          "slug": "subtalar-joint",
-          "name": "Subtalar Joint",
-          "movement": "circumduction"
-        }
-      ],
-      "equipment": [
-        "chair"
-      ],
-      "instructions": "1. Sit with one foot lifted.\n2. Trace each letter of the alphabet in the air with the big toe.\n3. Move slowly and make large letters.\n4. Repeat with the other foot.",
-      "breathing": "Easy.",
-      "safety_notes": null,
-      "contraindications": null,
-      "clinical_relevance": "Common early-home-rehab mobility drill after ankle sprain.",
-      "dosage": "A-Z per ankle",
-      "origin": "curated",
-      "confidence": 0.92,
-      "review_status": "approved",
-      "is_medical_claim": false,
-      "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.922337+00:00",
-      "sources": []
-    },
-    {
-      "id": 185,
+      "id": 1,
       "slug": "chin-tuck",
       "name": "Chin Tuck",
       "aliases": [
@@ -274,11 +59,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.288979+00:00",
+      "updated_at": "2026-09-05T20:07:04.501793+00:00",
       "sources": []
     },
     {
-      "id": 186,
+      "id": 2,
       "slug": "deep-neck-flexor-activation",
       "name": "Deep Neck Flexor Activation",
       "aliases": [
@@ -329,89 +114,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.291942+00:00",
+      "updated_at": "2026-09-05T20:07:04.504615+00:00",
       "sources": []
     },
     {
-      "id": 330,
-      "slug": "gentle-cool-down-walk",
-      "name": "Gentle Cool-Down Walk",
-      "aliases": [
-        "cool down walk",
-        "post-workout walk"
-      ],
-      "type": "cooldown",
-      "type_name": "Cool-Down",
-      "difficulty": "beginner",
-      "position": "standing",
-      "movement_pattern": null,
-      "body_regions": [
-        {
-          "slug": "whole-body",
-          "name": "Whole Body",
-          "role": "primary"
-        },
-        {
-          "slug": "calf",
-          "name": "Calf / Lower Leg",
-          "role": "secondary"
-        }
-      ],
-      "muscles": [
-        {
-          "slug": "gastrocnemius",
-          "name": "Gastrocnemius",
-          "role": "secondary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "soleus",
-          "name": "Soleus",
-          "role": "secondary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "gluteus-maximus",
-          "name": "Gluteus Maximus",
-          "role": "secondary",
-          "structure_type": "muscle"
-        }
-      ],
-      "primary_muscles": [],
-      "joints": [
-        {
-          "slug": "ankle-joint",
-          "name": "Ankle (Talocrural) Joint",
-          "movement": null
-        },
-        {
-          "slug": "knee-joint",
-          "name": "Knee (Tibiofemoral) Joint",
-          "movement": null
-        },
-        {
-          "slug": "hip-joint",
-          "name": "Hip Joint",
-          "movement": null
-        }
-      ],
-      "equipment": [],
-      "instructions": "1. After hard exercise, drop to an easy conversational pace.\n2. Walk 5-10 minutes, letting the breath settle.\n3. Add long exhales: in through the nose, slowly out.\n4. Finish with a full-body stretch of the day's tightest areas.",
-      "breathing": "Nasal inhale, long exhale.",
-      "safety_notes": null,
-      "contraindications": null,
-      "clinical_relevance": null,
-      "dosage": "5-10 minutes",
-      "origin": "curated",
-      "confidence": 0.92,
-      "review_status": "approved",
-      "is_medical_claim": false,
-      "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.052497+00:00",
-      "sources": []
-    },
-    {
-      "id": 187,
+      "id": 3,
       "slug": "suboccipital-release",
       "name": "Suboccipital Release",
       "aliases": [
@@ -463,11 +170,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.302351+00:00",
+      "updated_at": "2026-09-05T20:07:04.513846+00:00",
       "sources": []
     },
     {
-      "id": 188,
+      "id": 4,
       "slug": "suboccipital-stretch",
       "name": "Suboccipital Stretch",
       "aliases": [
@@ -515,11 +222,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.308415+00:00",
+      "updated_at": "2026-09-05T20:07:04.519366+00:00",
       "sources": []
     },
     {
-      "id": 189,
+      "id": 5,
       "slug": "levator-scapulae-stretch",
       "name": "Levator Scapulae Stretch",
       "aliases": [
@@ -580,11 +287,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.313122+00:00",
+      "updated_at": "2026-09-05T20:07:04.524069+00:00",
       "sources": []
     },
     {
-      "id": 190,
+      "id": 6,
       "slug": "scalene-stretch",
       "name": "Scalene Stretch",
       "aliases": [
@@ -633,11 +340,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.316815+00:00",
+      "updated_at": "2026-09-05T20:07:04.527695+00:00",
       "sources": []
     },
     {
-      "id": 191,
+      "id": 7,
       "slug": "upper-trap-stretch",
       "name": "Upper Trapezius Stretch",
       "aliases": [
@@ -686,11 +393,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.324306+00:00",
+      "updated_at": "2026-09-05T20:07:04.532770+00:00",
       "sources": []
     },
     {
-      "id": 192,
+      "id": 8,
       "slug": "scm-stretch",
       "name": "Sternocleidomastoid Stretch",
       "aliases": [
@@ -738,11 +445,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.329190+00:00",
+      "updated_at": "2026-09-05T20:07:04.536062+00:00",
       "sources": []
     },
     {
-      "id": 193,
+      "id": 9,
       "slug": "neck-rotation-stretch",
       "name": "Neck Rotation Stretch",
       "aliases": [
@@ -798,11 +505,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.334085+00:00",
+      "updated_at": "2026-09-05T20:07:04.539301+00:00",
       "sources": []
     },
     {
-      "id": 194,
+      "id": 10,
       "slug": "cervical-extension-mobility",
       "name": "Cervical Extension Mobility",
       "aliases": [
@@ -858,11 +565,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.339013+00:00",
+      "updated_at": "2026-09-05T20:07:04.542628+00:00",
       "sources": []
     },
     {
-      "id": 195,
+      "id": 11,
       "slug": "prone-cervical-extension-endurance",
       "name": "Prone Cervical Extension Endurance",
       "aliases": [
@@ -919,11 +626,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.344948+00:00",
+      "updated_at": "2026-09-05T20:07:04.546233+00:00",
       "sources": []
     },
     {
-      "id": 196,
+      "id": 12,
       "slug": "wall-posture-align",
       "name": "Wall Posture Alignment",
       "aliases": [
@@ -991,11 +698,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.350197+00:00",
+      "updated_at": "2026-09-05T20:07:04.549898+00:00",
       "sources": []
     },
     {
-      "id": 197,
+      "id": 13,
       "slug": "neck-sidebend-mobility",
       "name": "Neck Side-Bend Mobility",
       "aliases": [
@@ -1050,89 +757,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.354769+00:00",
+      "updated_at": "2026-09-05T20:07:04.554183+00:00",
       "sources": []
     },
     {
-      "id": 209,
-      "slug": "wall-slides",
-      "name": "Wall Slides",
-      "aliases": [
-        "wall angels",
-        "scapular wall slides"
-      ],
-      "type": "mobility",
-      "type_name": "Mobility",
-      "difficulty": "beginner",
-      "position": "standing",
-      "movement_pattern": "scapular upward rotation",
-      "body_regions": [
-        {
-          "slug": "shoulder",
-          "name": "Shoulder",
-          "role": "primary"
-        },
-        {
-          "slug": "upper-back",
-          "name": "Upper Back",
-          "role": "secondary"
-        }
-      ],
-      "muscles": [
-        {
-          "slug": "serratus-anterior",
-          "name": "Serratus Anterior",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "lower-trapezius",
-          "name": "Lower Trapezius",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "lower-trapezius",
-          "name": "Lower Trapezius",
-          "role": "stabilizer",
-          "structure_type": "muscle"
-        }
-      ],
-      "primary_muscles": [
-        "serratus-anterior",
-        "lower-trapezius"
-      ],
-      "joints": [
-        {
-          "slug": "scapulothoracic-joint",
-          "name": "Scapulothoracic Joint",
-          "movement": "upward rotation"
-        },
-        {
-          "slug": "glenohumeral-joint",
-          "name": "Glenohumeral Joint",
-          "movement": "flexion"
-        }
-      ],
-      "equipment": [
-        "wall"
-      ],
-      "instructions": "1. Stand with back, head and wrists against a wall, elbows bent in a 'W'.\n2. Slide the arms slowly up into a 'Y', keeping contact where possible.\n3. Feel the shoulder blades rotating upward and outward.\n4. Lower with the same control.",
-      "breathing": "Exhale sliding up; inhale down.",
-      "safety_notes": "Keep the low back flat \u2014 the goal is scapular motion, not lumbar arching.",
-      "contraindications": null,
-      "clinical_relevance": null,
-      "dosage": "3 x 10 slow reps",
-      "origin": "curated",
-      "confidence": 0.92,
-      "review_status": "approved",
-      "is_medical_claim": false,
-      "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.407007+00:00",
-      "sources": []
-    },
-    {
-      "id": 198,
+      "id": 14,
       "slug": "thoracic-extension-foam-roll",
       "name": "Thoracic Extension Over Foam Roller",
       "aliases": [
@@ -1202,11 +831,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.360204+00:00",
+      "updated_at": "2026-09-05T20:07:04.558295+00:00",
       "sources": []
     },
     {
-      "id": 199,
+      "id": 15,
       "slug": "tmj-relaxed-jaw-position",
       "name": "TMJ Relaxed Jaw Position",
       "aliases": [
@@ -1259,11 +888,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.364754+00:00",
+      "updated_at": "2026-09-05T20:07:04.561906+00:00",
       "sources": []
     },
     {
-      "id": 200,
+      "id": 16,
       "slug": "masseter-self-massage",
       "name": "Masseter Self-Massage",
       "aliases": [
@@ -1318,11 +947,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.369338+00:00",
+      "updated_at": "2026-09-05T20:07:04.566093+00:00",
       "sources": []
     },
     {
-      "id": 201,
+      "id": 17,
       "slug": "tmj-controlled-opening",
       "name": "TMJ Controlled Opening",
       "aliases": [
@@ -1383,11 +1012,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.373070+00:00",
+      "updated_at": "2026-09-05T20:07:04.569594+00:00",
       "sources": []
     },
     {
-      "id": 202,
+      "id": 18,
       "slug": "sleeper-stretch",
       "name": "Sleeper Stretch",
       "aliases": [
@@ -1444,19 +1073,19 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 1,
-      "updated_at": "2026-09-04T20:16:00.376580+00:00",
+      "updated_at": "2026-09-05T20:07:04.573134+00:00",
       "sources": [
         {
           "source": "OrthoInfo \u2014 American Academy of Orthopaedic Surgeons",
           "domain": "www.orthoinfo.org",
           "url": "https://www.orthoinfo.org/recovery/rotator-cuff-and-shoulder-conditioning-program/",
           "license": "restricted",
-          "retrieved_at": "2026-09-04T20:22:54.295469+00:00"
+          "retrieved_at": "2026-09-05T20:07:05.947829+00:00"
         }
       ]
     },
     {
-      "id": 203,
+      "id": 19,
       "slug": "cross-body-shoulder-stretch",
       "name": "Cross-Body Shoulder Stretch",
       "aliases": [
@@ -1530,11 +1159,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.380284+00:00",
+      "updated_at": "2026-09-05T20:07:04.576690+00:00",
       "sources": []
     },
     {
-      "id": 204,
+      "id": 20,
       "slug": "doorway-pec-stretch",
       "name": "Doorway Pectoral Stretch",
       "aliases": [
@@ -1603,11 +1232,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.384298+00:00",
+      "updated_at": "2026-09-05T20:07:04.580627+00:00",
       "sources": []
     },
     {
-      "id": 205,
+      "id": 21,
       "slug": "pendulum-exercise",
       "name": "Pendulum Exercise",
       "aliases": [
@@ -1675,11 +1304,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.388354+00:00",
+      "updated_at": "2026-09-05T20:07:04.584645+00:00",
       "sources": []
     },
     {
-      "id": 206,
+      "id": 22,
       "slug": "band-external-rotation",
       "name": "Resistance Band External Rotation",
       "aliases": [
@@ -1738,11 +1367,78 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.393344+00:00",
+      "updated_at": "2026-09-05T20:07:04.589082+00:00",
       "sources": []
     },
     {
-      "id": 207,
+      "id": 36,
+      "slug": "scapular-clock",
+      "name": "Scapular Clock",
+      "aliases": [
+        "shoulder blade clock"
+      ],
+      "type": "mobility",
+      "type_name": "Mobility",
+      "difficulty": "beginner",
+      "position": "standing",
+      "movement_pattern": "circumduction",
+      "body_regions": [
+        {
+          "slug": "shoulder",
+          "name": "Shoulder",
+          "role": "primary"
+        }
+      ],
+      "muscles": [
+        {
+          "slug": "serratus-anterior",
+          "name": "Serratus Anterior",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "lower-trapezius",
+          "name": "Lower Trapezius",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "upper-trapezius",
+          "name": "Upper Trapezius",
+          "role": "stabilizer",
+          "structure_type": "muscle"
+        }
+      ],
+      "primary_muscles": [
+        "serratus-anterior",
+        "lower-trapezius"
+      ],
+      "joints": [
+        {
+          "slug": "scapulothoracic-joint",
+          "name": "Scapulothoracic Joint",
+          "movement": "circumduction"
+        }
+      ],
+      "equipment": [
+        "wall"
+      ],
+      "instructions": "1. Place a forearm on a wall at shoulder height.\n2. Imagine a clock face on the wall and reach the shoulder blade toward 12, 3, 6 and 9.\n3. Move slowly, isolating the shoulder blade from the arm.\n4. Repeat both directions.",
+      "breathing": "Relaxed breathing.",
+      "safety_notes": "Small, controlled reaches; the arm stays still.",
+      "contraindications": null,
+      "clinical_relevance": null,
+      "dosage": "2-3 rounds per side",
+      "origin": "curated",
+      "confidence": 0.92,
+      "review_status": "approved",
+      "is_medical_claim": false,
+      "source_count": 0,
+      "updated_at": "2026-09-05T20:07:04.647925+00:00",
+      "sources": []
+    },
+    {
+      "id": 23,
       "slug": "band-internal-rotation",
       "name": "Resistance Band Internal Rotation",
       "aliases": [
@@ -1799,11 +1495,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.397981+00:00",
+      "updated_at": "2026-09-05T20:07:04.593310+00:00",
       "sources": []
     },
     {
-      "id": 208,
+      "id": 24,
       "slug": "scapular-retraction",
       "name": "Scapular Retraction",
       "aliases": [
@@ -1871,11 +1567,89 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.402477+00:00",
+      "updated_at": "2026-09-05T20:07:04.597468+00:00",
       "sources": []
     },
     {
-      "id": 210,
+      "id": 25,
+      "slug": "wall-slides",
+      "name": "Wall Slides",
+      "aliases": [
+        "wall angels",
+        "scapular wall slides"
+      ],
+      "type": "mobility",
+      "type_name": "Mobility",
+      "difficulty": "beginner",
+      "position": "standing",
+      "movement_pattern": "scapular upward rotation",
+      "body_regions": [
+        {
+          "slug": "shoulder",
+          "name": "Shoulder",
+          "role": "primary"
+        },
+        {
+          "slug": "upper-back",
+          "name": "Upper Back",
+          "role": "secondary"
+        }
+      ],
+      "muscles": [
+        {
+          "slug": "serratus-anterior",
+          "name": "Serratus Anterior",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "lower-trapezius",
+          "name": "Lower Trapezius",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "lower-trapezius",
+          "name": "Lower Trapezius",
+          "role": "stabilizer",
+          "structure_type": "muscle"
+        }
+      ],
+      "primary_muscles": [
+        "serratus-anterior",
+        "lower-trapezius"
+      ],
+      "joints": [
+        {
+          "slug": "scapulothoracic-joint",
+          "name": "Scapulothoracic Joint",
+          "movement": "upward rotation"
+        },
+        {
+          "slug": "glenohumeral-joint",
+          "name": "Glenohumeral Joint",
+          "movement": "flexion"
+        }
+      ],
+      "equipment": [
+        "wall"
+      ],
+      "instructions": "1. Stand with back, head and wrists against a wall, elbows bent in a 'W'.\n2. Slide the arms slowly up into a 'Y', keeping contact where possible.\n3. Feel the shoulder blades rotating upward and outward.\n4. Lower with the same control.",
+      "breathing": "Exhale sliding up; inhale down.",
+      "safety_notes": "Keep the low back flat \u2014 the goal is scapular motion, not lumbar arching.",
+      "contraindications": null,
+      "clinical_relevance": null,
+      "dosage": "3 x 10 slow reps",
+      "origin": "curated",
+      "confidence": 0.92,
+      "review_status": "approved",
+      "is_medical_claim": false,
+      "source_count": 0,
+      "updated_at": "2026-09-05T20:07:04.601560+00:00",
+      "sources": []
+    },
+    {
+      "id": 26,
       "slug": "prone-y-raise",
       "name": "Prone Y Raise",
       "aliases": [
@@ -1937,11 +1711,153 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.411379+00:00",
+      "updated_at": "2026-09-05T20:07:04.605596+00:00",
       "sources": []
     },
     {
-      "id": 213,
+      "id": 27,
+      "slug": "prone-t-raise",
+      "name": "Prone T Raise",
+      "aliases": [
+        "prone T",
+        "rhomboid T raise"
+      ],
+      "type": "strength",
+      "type_name": "Strength",
+      "difficulty": "beginner",
+      "position": "prone",
+      "movement_pattern": "retraction",
+      "body_regions": [
+        {
+          "slug": "upper-back",
+          "name": "Upper Back",
+          "role": "primary"
+        }
+      ],
+      "muscles": [
+        {
+          "slug": "rhomboid-major",
+          "name": "Rhomboid Major",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "rhomboid-minor",
+          "name": "Rhomboid Minor",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "middle-trapezius",
+          "name": "Middle Trapezius",
+          "role": "primary",
+          "structure_type": "muscle"
+        }
+      ],
+      "primary_muscles": [
+        "rhomboid-major",
+        "rhomboid-minor",
+        "middle-trapezius"
+      ],
+      "joints": [
+        {
+          "slug": "scapulothoracic-joint",
+          "name": "Scapulothoracic Joint",
+          "movement": "retraction"
+        }
+      ],
+      "equipment": [
+        "mat"
+      ],
+      "instructions": "1. Lie face down, arms straight out to the sides, thumbs up.\n2. Squeeze the shoulder blades to lift the arms into a T.\n3. Hold 2-3 seconds, feeling the mid-back work.\n4. Lower with control.",
+      "breathing": "Exhale lifting.",
+      "safety_notes": "Keep the neck relaxed, forehead down.",
+      "contraindications": null,
+      "clinical_relevance": null,
+      "dosage": "3 x 10-12",
+      "origin": "curated",
+      "confidence": 0.92,
+      "review_status": "approved",
+      "is_medical_claim": false,
+      "source_count": 0,
+      "updated_at": "2026-09-05T20:07:04.610046+00:00",
+      "sources": []
+    },
+    {
+      "id": 28,
+      "slug": "prone-w-raise",
+      "name": "Prone W Raise",
+      "aliases": [
+        "prone W",
+        "external rotation W"
+      ],
+      "type": "strength",
+      "type_name": "Strength",
+      "difficulty": "beginner",
+      "position": "prone",
+      "movement_pattern": "external rotation",
+      "body_regions": [
+        {
+          "slug": "shoulder",
+          "name": "Shoulder",
+          "role": "primary"
+        },
+        {
+          "slug": "upper-back",
+          "name": "Upper Back",
+          "role": "secondary"
+        }
+      ],
+      "muscles": [
+        {
+          "slug": "infraspinatus",
+          "name": "Infraspinatus",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "teres-minor",
+          "name": "Teres Minor",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "rhomboid-major",
+          "name": "Rhomboid Major",
+          "role": "secondary",
+          "structure_type": "muscle"
+        }
+      ],
+      "primary_muscles": [
+        "infraspinatus",
+        "teres-minor"
+      ],
+      "joints": [
+        {
+          "slug": "glenohumeral-joint",
+          "name": "Glenohumeral Joint",
+          "movement": "external rotation"
+        }
+      ],
+      "equipment": [
+        "mat"
+      ],
+      "instructions": "1. Lie face down, elbows bent in a W beside the ribs.\n2. Rotate the arms to lift the backs of the hands toward the ceiling.\n3. Keep the elbows lightly touching the sides.\n4. Pause 2 seconds and lower slowly.",
+      "breathing": "Exhale lifting.",
+      "safety_notes": "Lift only as high as pain-free rotator control allows.",
+      "contraindications": null,
+      "clinical_relevance": null,
+      "dosage": "3 x 10-12",
+      "origin": "curated",
+      "confidence": 0.92,
+      "review_status": "approved",
+      "is_medical_claim": false,
+      "source_count": 0,
+      "updated_at": "2026-09-05T20:07:04.614245+00:00",
+      "sources": []
+    },
+    {
+      "id": 29,
       "slug": "serratus-punch",
       "name": "Serratus Anterior Punch",
       "aliases": [
@@ -2004,11 +1920,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.425523+00:00",
+      "updated_at": "2026-09-05T20:07:04.618296+00:00",
       "sources": []
     },
     {
-      "id": 214,
+      "id": 30,
       "slug": "wall-pushup-plus",
       "name": "Wall Push-Up Plus",
       "aliases": [
@@ -2077,11 +1993,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.430440+00:00",
+      "updated_at": "2026-09-05T20:07:04.622819+00:00",
       "sources": []
     },
     {
-      "id": 215,
+      "id": 31,
       "slug": "band-pull-apart",
       "name": "Band Pull-Apart",
       "aliases": [
@@ -2156,11 +2072,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.435283+00:00",
+      "updated_at": "2026-09-05T20:07:04.627278+00:00",
       "sources": []
     },
     {
-      "id": 216,
+      "id": 32,
       "slug": "shoulder-flexion-wand",
       "name": "Shoulder Flexion Wand Exercise",
       "aliases": [
@@ -2218,11 +2134,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.439921+00:00",
+      "updated_at": "2026-09-05T20:07:04.631565+00:00",
       "sources": []
     },
     {
-      "id": 217,
+      "id": 33,
       "slug": "towel-internal-rotation-stretch",
       "name": "Towel Internal Rotation Stretch",
       "aliases": [
@@ -2273,11 +2189,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.444439+00:00",
+      "updated_at": "2026-09-05T20:07:04.635778+00:00",
       "sources": []
     },
     {
-      "id": 218,
+      "id": 34,
       "slug": "arm-hangs",
       "name": "Dead Hang",
       "aliases": [
@@ -2352,11 +2268,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.449126+00:00",
+      "updated_at": "2026-09-05T20:07:04.639843+00:00",
       "sources": []
     },
     {
-      "id": 219,
+      "id": 35,
       "slug": "eagle-arm-stretch",
       "name": "Eagle Arm Stretch",
       "aliases": [
@@ -2425,78 +2341,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.455690+00:00",
+      "updated_at": "2026-09-05T20:07:04.643633+00:00",
       "sources": []
     },
     {
-      "id": 220,
-      "slug": "scapular-clock",
-      "name": "Scapular Clock",
-      "aliases": [
-        "shoulder blade clock"
-      ],
-      "type": "mobility",
-      "type_name": "Mobility",
-      "difficulty": "beginner",
-      "position": "standing",
-      "movement_pattern": "circumduction",
-      "body_regions": [
-        {
-          "slug": "shoulder",
-          "name": "Shoulder",
-          "role": "primary"
-        }
-      ],
-      "muscles": [
-        {
-          "slug": "serratus-anterior",
-          "name": "Serratus Anterior",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "lower-trapezius",
-          "name": "Lower Trapezius",
-          "role": "primary",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "upper-trapezius",
-          "name": "Upper Trapezius",
-          "role": "stabilizer",
-          "structure_type": "muscle"
-        }
-      ],
-      "primary_muscles": [
-        "serratus-anterior",
-        "lower-trapezius"
-      ],
-      "joints": [
-        {
-          "slug": "scapulothoracic-joint",
-          "name": "Scapulothoracic Joint",
-          "movement": "circumduction"
-        }
-      ],
-      "equipment": [
-        "wall"
-      ],
-      "instructions": "1. Place a forearm on a wall at shoulder height.\n2. Imagine a clock face on the wall and reach the shoulder blade toward 12, 3, 6 and 9.\n3. Move slowly, isolating the shoulder blade from the arm.\n4. Repeat both directions.",
-      "breathing": "Relaxed breathing.",
-      "safety_notes": "Small, controlled reaches; the arm stays still.",
-      "contraindications": null,
-      "clinical_relevance": null,
-      "dosage": "2-3 rounds per side",
-      "origin": "curated",
-      "confidence": 0.92,
-      "review_status": "approved",
-      "is_medical_claim": false,
-      "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.461628+00:00",
-      "sources": []
-    },
-    {
-      "id": 221,
+      "id": 37,
       "slug": "prone-on-elbows",
       "name": "Prone on Elbows",
       "aliases": [
@@ -2563,11 +2412,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.466736+00:00",
+      "updated_at": "2026-09-05T20:07:04.651771+00:00",
       "sources": []
     },
     {
-      "id": 222,
+      "id": 38,
       "slug": "cat-cow",
       "name": "Cat-Cow",
       "aliases": [
@@ -2642,11 +2491,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.472184+00:00",
+      "updated_at": "2026-09-05T20:07:04.655830+00:00",
       "sources": []
     },
     {
-      "id": 223,
+      "id": 39,
       "slug": "thread-the-needle",
       "name": "Thread the Needle",
       "aliases": [
@@ -2716,11 +2565,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.478484+00:00",
+      "updated_at": "2026-09-05T20:07:04.660261+00:00",
       "sources": []
     },
     {
-      "id": 224,
+      "id": 40,
       "slug": "open-book-thoracic-rotation",
       "name": "Open Book Thoracic Rotation",
       "aliases": [
@@ -2789,11 +2638,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.485744+00:00",
+      "updated_at": "2026-09-05T20:07:04.665754+00:00",
       "sources": []
     },
     {
-      "id": 225,
+      "id": 41,
       "slug": "wrist-extensor-stretch",
       "name": "Wrist Extensor Stretch",
       "aliases": [
@@ -2879,11 +2728,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.492546+00:00",
+      "updated_at": "2026-09-05T20:07:04.671371+00:00",
       "sources": []
     },
     {
-      "id": 226,
+      "id": 42,
       "slug": "wrist-flexor-stretch",
       "name": "Wrist Flexor Stretch",
       "aliases": [
@@ -2970,11 +2819,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.499543+00:00",
+      "updated_at": "2026-09-05T20:07:04.676424+00:00",
       "sources": []
     },
     {
-      "id": 227,
+      "id": 43,
       "slug": "eccentric-wrist-extension",
       "name": "Eccentric Wrist Extension",
       "aliases": [
@@ -3047,11 +2896,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.506141+00:00",
+      "updated_at": "2026-09-05T20:07:04.680784+00:00",
       "sources": []
     },
     {
-      "id": 228,
+      "id": 44,
       "slug": "eccentric-wrist-flexion",
       "name": "Eccentric Wrist Flexion",
       "aliases": [
@@ -3116,11 +2965,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.512534+00:00",
+      "updated_at": "2026-09-05T20:07:04.685227+00:00",
       "sources": []
     },
     {
-      "id": 229,
+      "id": 45,
       "slug": "wrist-pronation-supination-mobility",
       "name": "Wrist Pronation-Supination Mobility",
       "aliases": [
@@ -3189,11 +3038,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.519009+00:00",
+      "updated_at": "2026-09-05T20:07:04.689540+00:00",
       "sources": []
     },
     {
-      "id": 230,
+      "id": 46,
       "slug": "radial-deviation-stretch",
       "name": "Radial Deviation Stretch (Thumb Side)",
       "aliases": [
@@ -3265,11 +3114,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.525043+00:00",
+      "updated_at": "2026-09-05T20:07:04.694203+00:00",
       "sources": []
     },
     {
-      "id": 231,
+      "id": 47,
       "slug": "forearm-extensor-self-massage",
       "name": "Forearm Extensor Self-Massage",
       "aliases": [
@@ -3339,11 +3188,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.530168+00:00",
+      "updated_at": "2026-09-05T20:07:04.698413+00:00",
       "sources": []
     },
     {
-      "id": 232,
+      "id": 48,
       "slug": "brachioradialis-stretch",
       "name": "Brachioradialis Stretch",
       "aliases": [
@@ -3396,11 +3245,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.535089+00:00",
+      "updated_at": "2026-09-05T20:07:04.702633+00:00",
       "sources": []
     },
     {
-      "id": 233,
+      "id": 49,
       "slug": "supinator-stretch",
       "name": "Supinator Stretch",
       "aliases": [
@@ -3456,11 +3305,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.540391+00:00",
+      "updated_at": "2026-09-05T20:07:04.706937+00:00",
       "sources": []
     },
     {
-      "id": 234,
+      "id": 50,
       "slug": "median-nerve-glide",
       "name": "Median Nerve Glide",
       "aliases": [
@@ -3525,11 +3374,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.544675+00:00",
+      "updated_at": "2026-09-05T20:07:04.710655+00:00",
       "sources": []
     },
     {
-      "id": 235,
+      "id": 51,
       "slug": "ulnar-nerve-glide",
       "name": "Ulnar Nerve Glide",
       "aliases": [
@@ -3588,11 +3437,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.549544+00:00",
+      "updated_at": "2026-09-05T20:07:04.714533+00:00",
       "sources": []
     },
     {
-      "id": 236,
+      "id": 52,
       "slug": "radial-nerve-glide",
       "name": "Radial Nerve Glide",
       "aliases": [
@@ -3651,11 +3500,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.554288+00:00",
+      "updated_at": "2026-09-05T20:07:04.718330+00:00",
       "sources": []
     },
     {
-      "id": 237,
+      "id": 53,
       "slug": "wrist-circles",
       "name": "Wrist Circles",
       "aliases": [
@@ -3711,11 +3560,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.558757+00:00",
+      "updated_at": "2026-09-05T20:07:04.722190+00:00",
       "sources": []
     },
     {
-      "id": 238,
+      "id": 54,
       "slug": "prayer-stretch",
       "name": "Prayer Stretch",
       "aliases": [
@@ -3776,11 +3625,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.563134+00:00",
+      "updated_at": "2026-09-05T20:07:04.726097+00:00",
       "sources": []
     },
     {
-      "id": 239,
+      "id": 55,
       "slug": "tabletop-wrist-stretch",
       "name": "Tabletop Wrist Stretch",
       "aliases": [
@@ -3843,11 +3692,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.567584+00:00",
+      "updated_at": "2026-09-05T20:07:04.729665+00:00",
       "sources": []
     },
     {
-      "id": 240,
+      "id": 56,
       "slug": "wrist-extensor-isometric",
       "name": "Wrist Extensor Isometric",
       "aliases": [
@@ -3911,11 +3760,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.572389+00:00",
+      "updated_at": "2026-09-05T20:07:04.733569+00:00",
       "sources": []
     },
     {
-      "id": 241,
+      "id": 57,
       "slug": "finger-spread",
       "name": "Finger Spread",
       "aliases": [
@@ -3971,11 +3820,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.577474+00:00",
+      "updated_at": "2026-09-05T20:07:04.737947+00:00",
       "sources": []
     },
     {
-      "id": 242,
+      "id": 58,
       "slug": "fist-to-fan",
       "name": "Fist to Fan",
       "aliases": [
@@ -4042,11 +3891,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.582486+00:00",
+      "updated_at": "2026-09-05T20:07:04.741880+00:00",
       "sources": []
     },
     {
-      "id": 243,
+      "id": 59,
       "slug": "tendon-gliding-exercise",
       "name": "Finger Tendon Gliding Exercise",
       "aliases": [
@@ -4109,11 +3958,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.587313+00:00",
+      "updated_at": "2026-09-05T20:07:04.745514+00:00",
       "sources": []
     },
     {
-      "id": 244,
+      "id": 60,
       "slug": "thumb-stretch-series",
       "name": "Thumb Stretch Series",
       "aliases": [
@@ -4175,11 +4024,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.592400+00:00",
+      "updated_at": "2026-09-05T20:07:04.749551+00:00",
       "sources": []
     },
     {
-      "id": 245,
+      "id": 61,
       "slug": "thenar-self-massage",
       "name": "Thenar Self-Massage",
       "aliases": [
@@ -4233,11 +4082,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.597322+00:00",
+      "updated_at": "2026-09-05T20:07:04.753122+00:00",
       "sources": []
     },
     {
-      "id": 246,
+      "id": 62,
       "slug": "towel-squeeze",
       "name": "Towel Squeeze",
       "aliases": [
@@ -4312,11 +4161,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.602241+00:00",
+      "updated_at": "2026-09-05T20:07:04.756485+00:00",
       "sources": []
     },
     {
-      "id": 247,
+      "id": 63,
       "slug": "marble-pickup",
       "name": "Marble Pickup",
       "aliases": [
@@ -4385,11 +4234,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.607214+00:00",
+      "updated_at": "2026-09-05T20:07:04.760736+00:00",
       "sources": []
     },
     {
-      "id": 248,
+      "id": 64,
       "slug": "finger-extension-rubber-band",
       "name": "Finger Extension With Rubber Band",
       "aliases": [
@@ -4452,11 +4301,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.612721+00:00",
+      "updated_at": "2026-09-05T20:07:04.765668+00:00",
       "sources": []
     },
     {
-      "id": 249,
+      "id": 65,
       "slug": "child-pose",
       "name": "Child's Pose",
       "aliases": [
@@ -4531,11 +4380,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.618393+00:00",
+      "updated_at": "2026-09-05T20:07:04.769873+00:00",
       "sources": []
     },
     {
-      "id": 250,
+      "id": 66,
       "slug": "supine-spinal-twist",
       "name": "Supine Spinal Twist",
       "aliases": [
@@ -4616,11 +4465,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.623843+00:00",
+      "updated_at": "2026-09-05T20:07:04.774105+00:00",
       "sources": []
     },
     {
-      "id": 251,
+      "id": 67,
       "slug": "lumbar-flexion-stretch",
       "name": "Single Knee-to-Chest",
       "aliases": [
@@ -4688,11 +4537,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.629982+00:00",
+      "updated_at": "2026-09-05T20:07:04.778415+00:00",
       "sources": []
     },
     {
-      "id": 252,
+      "id": 68,
       "slug": "ql-side-bend-stretch",
       "name": "Standing QL Side-Bend Stretch",
       "aliases": [
@@ -4754,11 +4603,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.636188+00:00",
+      "updated_at": "2026-09-05T20:07:04.782705+00:00",
       "sources": []
     },
     {
-      "id": 253,
+      "id": 69,
       "slug": "prone-press-up",
       "name": "Prone Press-Up",
       "aliases": [
@@ -4836,11 +4685,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.642163+00:00",
+      "updated_at": "2026-09-05T20:07:04.786897+00:00",
       "sources": []
     },
     {
-      "id": 254,
+      "id": 70,
       "slug": "pelvic-tilt",
       "name": "Pelvic Tilt",
       "aliases": [
@@ -4905,11 +4754,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.647344+00:00",
+      "updated_at": "2026-09-05T20:07:04.790610+00:00",
       "sources": []
     },
     {
-      "id": 255,
+      "id": 71,
       "slug": "dead-bug",
       "name": "Dead Bug",
       "aliases": [
@@ -4983,11 +4832,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.653245+00:00",
+      "updated_at": "2026-09-05T20:07:04.794968+00:00",
       "sources": []
     },
     {
-      "id": 256,
+      "id": 72,
       "slug": "bird-dog",
       "name": "Bird Dog",
       "aliases": [
@@ -5062,11 +4911,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.658842+00:00",
+      "updated_at": "2026-09-05T20:07:04.799248+00:00",
       "sources": []
     },
     {
-      "id": 257,
+      "id": 73,
       "slug": "glute-bridge",
       "name": "Glute Bridge",
       "aliases": [
@@ -5134,11 +4983,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.664784+00:00",
+      "updated_at": "2026-09-05T20:07:04.803612+00:00",
       "sources": []
     },
     {
-      "id": 258,
+      "id": 74,
       "slug": "diaphragmatic-breathing",
       "name": "Diaphragmatic Breathing",
       "aliases": [
@@ -5202,11 +5051,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.670640+00:00",
+      "updated_at": "2026-09-05T20:07:04.807887+00:00",
       "sources": []
     },
     {
-      "id": 259,
+      "id": 75,
       "slug": "box-breathing",
       "name": "Box Breathing",
       "aliases": [
@@ -5249,11 +5098,92 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.676479+00:00",
+      "updated_at": "2026-09-05T20:07:04.812231+00:00",
       "sources": []
     },
     {
-      "id": 260,
+      "id": 101,
+      "slug": "seated-hamstring-stretch",
+      "name": "Seated Hamstring Stretch",
+      "aliases": [
+        "seated forward fold",
+        "modified seated hamstring stretch"
+      ],
+      "type": "stretching",
+      "type_name": "Stretching",
+      "difficulty": "beginner",
+      "position": "seated on floor",
+      "movement_pattern": "flexion",
+      "body_regions": [
+        {
+          "slug": "hip",
+          "name": "Hip / Pelvis",
+          "role": "primary"
+        },
+        {
+          "slug": "knee",
+          "name": "Knee",
+          "role": "secondary"
+        }
+      ],
+      "muscles": [
+        {
+          "slug": "biceps-femoris",
+          "name": "Biceps Femoris",
+          "role": "stretch_target",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "semitendinosus",
+          "name": "Semitendinosus",
+          "role": "stretch_target",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "semimembranosus",
+          "name": "Semimembranosus",
+          "role": "stretch_target",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "lumbar-erector-spinae",
+          "name": "Lumbar Erector Spinae",
+          "role": "secondary",
+          "structure_type": "muscle"
+        }
+      ],
+      "primary_muscles": [
+        "biceps-femoris",
+        "semitendinosus",
+        "semimembranosus"
+      ],
+      "joints": [
+        {
+          "slug": "hip-joint",
+          "name": "Hip Joint",
+          "movement": "flexion"
+        }
+      ],
+      "equipment": [
+        "mat",
+        "chair"
+      ],
+      "instructions": "1. Sit with one leg extended, the other bent with foot to inner thigh.\n2. Hinge forward from the hips, chest leading.\n3. Rest hands on the floor, a chair seat, or the shin.\n4. Hold 30 seconds per side.",
+      "breathing": "Long exhales fold you forward.",
+      "safety_notes": "A flat-back fold halfway down beats a rounded reach to the toes.",
+      "contraindications": null,
+      "clinical_relevance": null,
+      "dosage": "2 x 30 seconds per side",
+      "origin": "curated",
+      "confidence": 0.92,
+      "review_status": "approved",
+      "is_medical_claim": false,
+      "source_count": 0,
+      "updated_at": "2026-09-05T20:07:04.918083+00:00",
+      "sources": []
+    },
+    {
+      "id": 76,
       "slug": "pelvic-floor-activation",
       "name": "Pelvic Floor Activation",
       "aliases": [
@@ -5310,11 +5240,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.681769+00:00",
+      "updated_at": "2026-09-05T20:07:04.816047+00:00",
       "sources": []
     },
     {
-      "id": 261,
+      "id": 77,
       "slug": "seated-trunk-rotation",
       "name": "Seated Trunk Rotation",
       "aliases": [
@@ -5388,11 +5318,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.685589+00:00",
+      "updated_at": "2026-09-05T20:07:04.819265+00:00",
       "sources": []
     },
     {
-      "id": 262,
+      "id": 78,
       "slug": "cat-cow-seated",
       "name": "Seated Cat-Cow",
       "aliases": [
@@ -5467,11 +5397,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.690330+00:00",
+      "updated_at": "2026-09-05T20:07:04.822980+00:00",
       "sources": []
     },
     {
-      "id": 263,
+      "id": 79,
       "slug": "seated-figure-4-stretch",
       "name": "Seated Figure-4 Stretch",
       "aliases": [
@@ -5548,11 +5478,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.695334+00:00",
+      "updated_at": "2026-09-05T20:07:04.827494+00:00",
       "sources": []
     },
     {
-      "id": 264,
+      "id": 80,
       "slug": "pigeon-pose",
       "name": "Pigeon Pose",
       "aliases": [
@@ -5631,11 +5561,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.700173+00:00",
+      "updated_at": "2026-09-05T20:07:04.831828+00:00",
       "sources": []
     },
     {
-      "id": 265,
+      "id": 81,
       "slug": "kneeling-hip-flexor-stretch",
       "name": "Kneeling Hip Flexor Stretch",
       "aliases": [
@@ -5707,11 +5637,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.705700+00:00",
+      "updated_at": "2026-09-05T20:07:04.835990+00:00",
       "sources": []
     },
     {
-      "id": 266,
+      "id": 82,
       "slug": "couch-stretch",
       "name": "Couch Stretch",
       "aliases": [
@@ -5788,11 +5718,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.711574+00:00",
+      "updated_at": "2026-09-05T20:07:04.840276+00:00",
       "sources": []
     },
     {
-      "id": 267,
+      "id": 83,
       "slug": "butterfly-stretch",
       "name": "Butterfly Stretch",
       "aliases": [
@@ -5864,11 +5794,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.717766+00:00",
+      "updated_at": "2026-09-05T20:07:04.844577+00:00",
       "sources": []
     },
     {
-      "id": 268,
+      "id": 84,
       "slug": "ninety-ninety-stretch",
       "name": "90/90 Hip Stretch",
       "aliases": [
@@ -5946,11 +5876,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.723711+00:00",
+      "updated_at": "2026-09-05T20:07:04.848958+00:00",
       "sources": []
     },
     {
-      "id": 269,
+      "id": 85,
       "slug": "standing-hip-flexor-stretch",
       "name": "Standing Hip Flexor Stretch",
       "aliases": [
@@ -6005,11 +5935,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.729409+00:00",
+      "updated_at": "2026-09-05T20:07:04.852847+00:00",
       "sources": []
     },
     {
-      "id": 270,
+      "id": 86,
       "slug": "glute-bridge-march",
       "name": "Glute Bridge March",
       "aliases": [
@@ -6077,11 +6007,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.735066+00:00",
+      "updated_at": "2026-09-05T20:07:04.856731+00:00",
       "sources": []
     },
     {
-      "id": 271,
+      "id": 87,
       "slug": "side-lying-hip-abduction",
       "name": "Side-Lying Hip Abduction",
       "aliases": [
@@ -6145,11 +6075,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.740408+00:00",
+      "updated_at": "2026-09-05T20:07:04.860386+00:00",
       "sources": []
     },
     {
-      "id": 272,
+      "id": 88,
       "slug": "clamshell",
       "name": "Clamshell",
       "aliases": [
@@ -6214,11 +6144,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.746026+00:00",
+      "updated_at": "2026-09-05T20:07:04.864443+00:00",
       "sources": []
     },
     {
-      "id": 273,
+      "id": 89,
       "slug": "standing-hip-drop",
       "name": "Standing Hip Drop (Wall Support)",
       "aliases": [
@@ -6287,11 +6217,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.751379+00:00",
+      "updated_at": "2026-09-05T20:07:04.868614+00:00",
       "sources": []
     },
     {
-      "id": 274,
+      "id": 90,
       "slug": "hip-circles",
       "name": "Hip Circles",
       "aliases": [
@@ -6359,11 +6289,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.756738+00:00",
+      "updated_at": "2026-09-05T20:07:04.872859+00:00",
       "sources": []
     },
     {
-      "id": 275,
+      "id": 91,
       "slug": "leg-swings",
       "name": "Leg Swings",
       "aliases": [
@@ -6427,11 +6357,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.761420+00:00",
+      "updated_at": "2026-09-05T20:07:04.877119+00:00",
       "sources": []
     },
     {
-      "id": 276,
+      "id": 92,
       "slug": "itb-foam-roll",
       "name": "ITB Foam Roll",
       "aliases": [
@@ -6495,11 +6425,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.765779+00:00",
+      "updated_at": "2026-09-05T20:07:04.880859+00:00",
       "sources": []
     },
     {
-      "id": 277,
+      "id": 93,
       "slug": "standing-adductor-stretch",
       "name": "Standing Adductor Stretch",
       "aliases": [
@@ -6562,11 +6492,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.770663+00:00",
+      "updated_at": "2026-09-05T20:07:04.884908+00:00",
       "sources": []
     },
     {
-      "id": 278,
+      "id": 94,
       "slug": "sciatic-nerve-glide-supine",
       "name": "Sciatic Nerve Glide (Supine)",
       "aliases": [
@@ -6634,11 +6564,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.776300+00:00",
+      "updated_at": "2026-09-05T20:07:04.888778+00:00",
       "sources": []
     },
     {
-      "id": 279,
+      "id": 95,
       "slug": "seated-hip-internal-rotation",
       "name": "Seated Hip Internal Rotation Mobility",
       "aliases": [
@@ -6702,11 +6632,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.781883+00:00",
+      "updated_at": "2026-09-05T20:07:04.892532+00:00",
       "sources": []
     },
     {
-      "id": 280,
+      "id": 96,
       "slug": "squat-hold",
       "name": "Deep Squat Hold",
       "aliases": [
@@ -6796,11 +6726,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.789040+00:00",
+      "updated_at": "2026-09-05T20:07:04.897100+00:00",
       "sources": []
     },
     {
-      "id": 281,
+      "id": 97,
       "slug": "sacroiliac-stretch-side-lying",
       "name": "Side-Lying SI Joint Stretch",
       "aliases": [
@@ -6874,11 +6804,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.795356+00:00",
+      "updated_at": "2026-09-05T20:07:04.901064+00:00",
       "sources": []
     },
     {
-      "id": 282,
+      "id": 98,
       "slug": "standing-quad-stretch",
       "name": "Standing Quadriceps Stretch",
       "aliases": [
@@ -6960,19 +6890,19 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 1,
-      "updated_at": "2026-09-04T20:16:00.802249+00:00",
+      "updated_at": "2026-09-05T20:07:04.905328+00:00",
       "sources": [
         {
           "source": "OrthoInfo \u2014 American Academy of Orthopaedic Surgeons",
           "domain": "www.orthoinfo.org",
           "url": "https://www.orthoinfo.org/recovery/knee-conditioning-program/",
           "license": "restricted",
-          "retrieved_at": "2026-09-04T20:22:54.463778+00:00"
+          "retrieved_at": "2026-09-05T20:07:06.074178+00:00"
         }
       ]
     },
     {
-      "id": 283,
+      "id": 99,
       "slug": "side-lying-quad-stretch",
       "name": "Side-Lying Quadriceps Stretch",
       "aliases": [
@@ -7037,11 +6967,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.809441+00:00",
+      "updated_at": "2026-09-05T20:07:04.909669+00:00",
       "sources": []
     },
     {
-      "id": 284,
+      "id": 100,
       "slug": "supine-hamstring-stretch",
       "name": "Supine Hamstring Stretch With Strap",
       "aliases": [
@@ -7118,92 +7048,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.816509+00:00",
+      "updated_at": "2026-09-05T20:07:04.914074+00:00",
       "sources": []
     },
     {
-      "id": 285,
-      "slug": "seated-hamstring-stretch",
-      "name": "Seated Hamstring Stretch",
-      "aliases": [
-        "seated forward fold",
-        "modified seated hamstring stretch"
-      ],
-      "type": "stretching",
-      "type_name": "Stretching",
-      "difficulty": "beginner",
-      "position": "seated on floor",
-      "movement_pattern": "flexion",
-      "body_regions": [
-        {
-          "slug": "hip",
-          "name": "Hip / Pelvis",
-          "role": "primary"
-        },
-        {
-          "slug": "knee",
-          "name": "Knee",
-          "role": "secondary"
-        }
-      ],
-      "muscles": [
-        {
-          "slug": "biceps-femoris",
-          "name": "Biceps Femoris",
-          "role": "stretch_target",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "semitendinosus",
-          "name": "Semitendinosus",
-          "role": "stretch_target",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "semimembranosus",
-          "name": "Semimembranosus",
-          "role": "stretch_target",
-          "structure_type": "muscle"
-        },
-        {
-          "slug": "lumbar-erector-spinae",
-          "name": "Lumbar Erector Spinae",
-          "role": "secondary",
-          "structure_type": "muscle"
-        }
-      ],
-      "primary_muscles": [
-        "biceps-femoris",
-        "semitendinosus",
-        "semimembranosus"
-      ],
-      "joints": [
-        {
-          "slug": "hip-joint",
-          "name": "Hip Joint",
-          "movement": "flexion"
-        }
-      ],
-      "equipment": [
-        "mat",
-        "chair"
-      ],
-      "instructions": "1. Sit with one leg extended, the other bent with foot to inner thigh.\n2. Hinge forward from the hips, chest leading.\n3. Rest hands on the floor, a chair seat, or the shin.\n4. Hold 30 seconds per side.",
-      "breathing": "Long exhales fold you forward.",
-      "safety_notes": "A flat-back fold halfway down beats a rounded reach to the toes.",
-      "contraindications": null,
-      "clinical_relevance": null,
-      "dosage": "2 x 30 seconds per side",
-      "origin": "curated",
-      "confidence": 0.92,
-      "review_status": "approved",
-      "is_medical_claim": false,
-      "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.822467+00:00",
-      "sources": []
-    },
-    {
-      "id": 286,
+      "id": 102,
       "slug": "short-arc-quad",
       "name": "Short-Arc Quadriceps Exercise",
       "aliases": [
@@ -7275,11 +7124,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.827735+00:00",
+      "updated_at": "2026-09-05T20:07:04.922595+00:00",
       "sources": []
     },
     {
-      "id": 287,
+      "id": 103,
       "slug": "straight-leg-raise",
       "name": "Straight Leg Raise",
       "aliases": [
@@ -7348,11 +7197,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.832717+00:00",
+      "updated_at": "2026-09-05T20:07:04.927241+00:00",
       "sources": []
     },
     {
-      "id": 288,
+      "id": 104,
       "slug": "terminal-knee-extension",
       "name": "Terminal Knee Extension (Band)",
       "aliases": [
@@ -7421,11 +7270,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.838058+00:00",
+      "updated_at": "2026-09-05T20:07:04.931622+00:00",
       "sources": []
     },
     {
-      "id": 289,
+      "id": 105,
       "slug": "wall-sit",
       "name": "Wall Sit",
       "aliases": [
@@ -7506,11 +7355,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.845433+00:00",
+      "updated_at": "2026-09-05T20:07:04.935690+00:00",
       "sources": []
     },
     {
-      "id": 290,
+      "id": 106,
       "slug": "heel-slides",
       "name": "Heel Slides",
       "aliases": [
@@ -7568,11 +7417,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.853181+00:00",
+      "updated_at": "2026-09-05T20:07:04.939774+00:00",
       "sources": []
     },
     {
-      "id": 291,
+      "id": 107,
       "slug": "patellar-mobilization",
       "name": "Patellar Mobilization",
       "aliases": [
@@ -7621,11 +7470,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.861212+00:00",
+      "updated_at": "2026-09-05T20:07:04.944046+00:00",
       "sources": []
     },
     {
-      "id": 292,
+      "id": 108,
       "slug": "popliteus-stretch",
       "name": "Popliteus Stretch (Soleus Bias)",
       "aliases": [
@@ -7693,11 +7542,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.868895+00:00",
+      "updated_at": "2026-09-05T20:07:04.948149+00:00",
       "sources": []
     },
     {
-      "id": 293,
+      "id": 109,
       "slug": "itb-stretch-crossing",
       "name": "Standing ITB Cross-Over Stretch",
       "aliases": [
@@ -7765,11 +7614,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.874209+00:00",
+      "updated_at": "2026-09-05T20:07:04.951814+00:00",
       "sources": []
     },
     {
-      "id": 294,
+      "id": 110,
       "slug": "gastroc-wall-stretch",
       "name": "Gastrocnemius Wall Stretch",
       "aliases": [
@@ -7833,11 +7682,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.879785+00:00",
+      "updated_at": "2026-09-05T20:07:04.955939+00:00",
       "sources": []
     },
     {
-      "id": 295,
+      "id": 111,
       "slug": "soleus-wall-stretch",
       "name": "Soleus Wall Stretch",
       "aliases": [
@@ -7919,11 +7768,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.884459+00:00",
+      "updated_at": "2026-09-05T20:07:04.959668+00:00",
       "sources": []
     },
     {
-      "id": 296,
+      "id": 112,
       "slug": "downward-dog-pedal",
       "name": "Downward Dog Pedaling",
       "aliases": [
@@ -7993,11 +7842,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.889362+00:00",
+      "updated_at": "2026-09-05T20:07:04.963759+00:00",
       "sources": []
     },
     {
-      "id": 297,
+      "id": 113,
       "slug": "eccentric-heel-drop",
       "name": "Eccentric Heel Drop (Alfredson)",
       "aliases": [
@@ -8068,11 +7917,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.894538+00:00",
+      "updated_at": "2026-09-05T20:07:04.968107+00:00",
       "sources": []
     },
     {
-      "id": 298,
+      "id": 114,
       "slug": "standing-calf-raise",
       "name": "Standing Calf Raise",
       "aliases": [
@@ -8149,11 +7998,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.899211+00:00",
+      "updated_at": "2026-09-05T20:07:04.972446+00:00",
       "sources": []
     },
     {
-      "id": 299,
+      "id": 115,
       "slug": "tibialis-anterior-stretch",
       "name": "Tibialis Anterior Stretch",
       "aliases": [
@@ -8224,11 +8073,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.903570+00:00",
+      "updated_at": "2026-09-05T20:07:04.976862+00:00",
       "sources": []
     },
     {
-      "id": 300,
+      "id": 116,
       "slug": "peroneal-stretch",
       "name": "Peroneal Stretch",
       "aliases": [
@@ -8303,11 +8152,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.908587+00:00",
+      "updated_at": "2026-09-05T20:07:04.981241+00:00",
       "sources": []
     },
     {
-      "id": 301,
+      "id": 117,
       "slug": "calf-foam-roll",
       "name": "Calf Foam Roll",
       "aliases": [
@@ -8366,11 +8215,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.913577+00:00",
+      "updated_at": "2026-09-05T20:07:04.985654+00:00",
       "sources": []
     },
     {
-      "id": 302,
+      "id": 118,
       "slug": "ankle-circles",
       "name": "Ankle Circles",
       "aliases": [
@@ -8444,11 +8293,84 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.918302+00:00",
+      "updated_at": "2026-09-05T20:07:04.990079+00:00",
       "sources": []
     },
     {
-      "id": 304,
+      "id": 119,
+      "slug": "ankle-alphabet",
+      "name": "Ankle Alphabet",
+      "aliases": [
+        "ankle ABCs",
+        "alphabet ankle mobility"
+      ],
+      "type": "mobility",
+      "type_name": "Mobility",
+      "difficulty": "beginner",
+      "position": "seated",
+      "movement_pattern": "circumduction",
+      "body_regions": [
+        {
+          "slug": "ankle",
+          "name": "Ankle",
+          "role": "primary"
+        }
+      ],
+      "muscles": [
+        {
+          "slug": "tibialis-anterior",
+          "name": "Tibialis Anterior",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "peroneus-longus",
+          "name": "Peroneus Longus",
+          "role": "primary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "extensor-digitorum-longus",
+          "name": "Extensor Digitorum Longus",
+          "role": "secondary",
+          "structure_type": "muscle"
+        }
+      ],
+      "primary_muscles": [
+        "tibialis-anterior",
+        "peroneus-longus"
+      ],
+      "joints": [
+        {
+          "slug": "ankle-joint",
+          "name": "Ankle (Talocrural) Joint",
+          "movement": "circumduction"
+        },
+        {
+          "slug": "subtalar-joint",
+          "name": "Subtalar Joint",
+          "movement": "circumduction"
+        }
+      ],
+      "equipment": [
+        "chair"
+      ],
+      "instructions": "1. Sit with one foot lifted.\n2. Trace each letter of the alphabet in the air with the big toe.\n3. Move slowly and make large letters.\n4. Repeat with the other foot.",
+      "breathing": "Easy.",
+      "safety_notes": null,
+      "contraindications": null,
+      "clinical_relevance": "Common early-home-rehab mobility drill after ankle sprain.",
+      "dosage": "A-Z per ankle",
+      "origin": "curated",
+      "confidence": 0.92,
+      "review_status": "approved",
+      "is_medical_claim": false,
+      "source_count": 0,
+      "updated_at": "2026-09-05T20:07:04.993844+00:00",
+      "sources": []
+    },
+    {
+      "id": 120,
       "slug": "knee-to-wall-ankle-mobility",
       "name": "Knee-to-Wall Ankle Mobility",
       "aliases": [
@@ -8510,11 +8432,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.927129+00:00",
+      "updated_at": "2026-09-05T20:07:04.998292+00:00",
       "sources": []
     },
     {
-      "id": 305,
+      "id": 121,
       "slug": "ankle-inversion-stretch",
       "name": "Ankle Inversion Stretch",
       "aliases": [
@@ -8584,11 +8506,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.931616+00:00",
+      "updated_at": "2026-09-05T20:07:05.002591+00:00",
       "sources": []
     },
     {
-      "id": 306,
+      "id": 122,
       "slug": "band-ankle-eversion",
       "name": "Resistance Band Ankle Eversion",
       "aliases": [
@@ -8664,11 +8586,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.935878+00:00",
+      "updated_at": "2026-09-05T20:07:05.006591+00:00",
       "sources": []
     },
     {
-      "id": 307,
+      "id": 123,
       "slug": "band-ankle-inversion",
       "name": "Resistance Band Ankle Inversion",
       "aliases": [
@@ -8742,11 +8664,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.940111+00:00",
+      "updated_at": "2026-09-05T20:07:05.011139+00:00",
       "sources": []
     },
     {
-      "id": 308,
+      "id": 124,
       "slug": "band-ankle-dorsiflexion",
       "name": "Resistance Band Ankle Dorsiflexion",
       "aliases": [
@@ -8815,11 +8737,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.945137+00:00",
+      "updated_at": "2026-09-05T20:07:05.015895+00:00",
       "sources": []
     },
     {
-      "id": 309,
+      "id": 125,
       "slug": "single-leg-balance",
       "name": "Single-Leg Balance",
       "aliases": [
@@ -8901,11 +8823,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.949881+00:00",
+      "updated_at": "2026-09-05T20:07:05.020432+00:00",
       "sources": []
     },
     {
-      "id": 310,
+      "id": 126,
       "slug": "single-leg-balance-eyes-closed",
       "name": "Single-Leg Balance (Eyes Closed)",
       "aliases": [
@@ -8982,11 +8904,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.955059+00:00",
+      "updated_at": "2026-09-05T20:07:05.024733+00:00",
       "sources": []
     },
     {
-      "id": 311,
+      "id": 127,
       "slug": "plantar-fascia-ball-massage",
       "name": "Plantar Fascia Ball Massage",
       "aliases": [
@@ -9052,11 +8974,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.960162+00:00",
+      "updated_at": "2026-09-05T20:07:05.029218+00:00",
       "sources": []
     },
     {
-      "id": 312,
+      "id": 128,
       "slug": "plantar-fascia-stretch",
       "name": "Plantar Fascia Stretch",
       "aliases": [
@@ -9122,11 +9044,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.965299+00:00",
+      "updated_at": "2026-09-05T20:07:05.033551+00:00",
       "sources": []
     },
     {
-      "id": 313,
+      "id": 129,
       "slug": "toe-towel-scrunch",
       "name": "Toe Towel Scrunch",
       "aliases": [
@@ -9199,11 +9121,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.970839+00:00",
+      "updated_at": "2026-09-05T20:07:05.037761+00:00",
       "sources": []
     },
     {
-      "id": 314,
+      "id": 130,
       "slug": "toe-yoga",
       "name": "Toe Yoga",
       "aliases": [
@@ -9272,11 +9194,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.977090+00:00",
+      "updated_at": "2026-09-05T20:07:05.041757+00:00",
       "sources": []
     },
     {
-      "id": 315,
+      "id": 131,
       "slug": "short-foot-exercise",
       "name": "Short Foot Exercise",
       "aliases": [
@@ -9345,11 +9267,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.983388+00:00",
+      "updated_at": "2026-09-05T20:07:05.046026+00:00",
       "sources": []
     },
     {
-      "id": 316,
+      "id": 132,
       "slug": "big-toe-stretch",
       "name": "Big Toe Stretch",
       "aliases": [
@@ -9414,11 +9336,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.988885+00:00",
+      "updated_at": "2026-09-05T20:07:05.049653+00:00",
       "sources": []
     },
     {
-      "id": 317,
+      "id": 133,
       "slug": "toe-spreader-stretch",
       "name": "Seated Toe Spreader Stretch",
       "aliases": [
@@ -9483,11 +9405,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.994558+00:00",
+      "updated_at": "2026-09-05T20:07:05.053418+00:00",
       "sources": []
     },
     {
-      "id": 318,
+      "id": 134,
       "slug": "intrinsic-heel-raise",
       "name": "Intrinsic-Offloaded Heel Raise",
       "aliases": [
@@ -9568,11 +9490,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:00.999599+00:00",
+      "updated_at": "2026-09-05T20:07:05.057359+00:00",
       "sources": []
     },
     {
-      "id": 319,
+      "id": 135,
       "slug": "toe-extensor-stretch",
       "name": "Toe Extensor Stretch",
       "aliases": [
@@ -9648,11 +9570,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.004094+00:00",
+      "updated_at": "2026-09-05T20:07:05.061438+00:00",
       "sources": []
     },
     {
-      "id": 320,
+      "id": 136,
       "slug": "ankle-dorsiflexion-stretch-kneeling",
       "name": "Kneeling Ankle Dorsiflexion Stretch",
       "aliases": [
@@ -9715,11 +9637,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.008694+00:00",
+      "updated_at": "2026-09-05T20:07:05.065884+00:00",
       "sources": []
     },
     {
-      "id": 321,
+      "id": 137,
       "slug": "tibialis-posterior-ball-release",
       "name": "Tibialis Posterior Self-Release",
       "aliases": [
@@ -9783,11 +9705,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.013358+00:00",
+      "updated_at": "2026-09-05T20:07:05.070733+00:00",
       "sources": []
     },
     {
-      "id": 322,
+      "id": 138,
       "slug": "marble-toe-pickup",
       "name": "Towel-Marble Combo Pickup",
       "aliases": [
@@ -9852,11 +9774,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.017414+00:00",
+      "updated_at": "2026-09-05T20:07:05.075242+00:00",
       "sources": []
     },
     {
-      "id": 323,
+      "id": 139,
       "slug": "arm-circles",
       "name": "Arm Circles",
       "aliases": [
@@ -9930,11 +9852,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.021289+00:00",
+      "updated_at": "2026-09-05T20:07:05.079263+00:00",
       "sources": []
     },
     {
-      "id": 324,
+      "id": 140,
       "slug": "hip-circles-standing-large",
       "name": "Standing Large Hip Circles",
       "aliases": [
@@ -10004,11 +9926,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.025241+00:00",
+      "updated_at": "2026-09-05T20:07:05.083321+00:00",
       "sources": []
     },
     {
-      "id": 325,
+      "id": 141,
       "slug": "walking-hamstring-reach",
       "name": "Walking Hamstring Reach",
       "aliases": [
@@ -10076,11 +9998,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.029224+00:00",
+      "updated_at": "2026-09-05T20:07:05.088504+00:00",
       "sources": []
     },
     {
-      "id": 326,
+      "id": 142,
       "slug": "leg-swing-lateral",
       "name": "Lateral Leg Swings",
       "aliases": [
@@ -10145,11 +10067,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.033328+00:00",
+      "updated_at": "2026-09-05T20:07:05.092573+00:00",
       "sources": []
     },
     {
-      "id": 327,
+      "id": 143,
       "slug": "world-greatest-stretch",
       "name": "World's Greatest Stretch",
       "aliases": [
@@ -10240,11 +10162,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.037456+00:00",
+      "updated_at": "2026-09-05T20:07:05.096555+00:00",
       "sources": []
     },
     {
-      "id": 328,
+      "id": 144,
       "slug": "legs-up-the-wall",
       "name": "Legs Up the Wall",
       "aliases": [
@@ -10313,11 +10235,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.042030+00:00",
+      "updated_at": "2026-09-05T20:07:05.100735+00:00",
       "sources": []
     },
     {
-      "id": 329,
+      "id": 145,
       "slug": "supine-corpse-relaxation",
       "name": "Supine Relaxation (Savasana)",
       "aliases": [
@@ -10363,11 +10285,89 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.047617+00:00",
+      "updated_at": "2026-09-05T20:07:05.105291+00:00",
       "sources": []
     },
     {
-      "id": 331,
+      "id": 146,
+      "slug": "gentle-cool-down-walk",
+      "name": "Gentle Cool-Down Walk",
+      "aliases": [
+        "cool down walk",
+        "post-workout walk"
+      ],
+      "type": "cooldown",
+      "type_name": "Cool-Down",
+      "difficulty": "beginner",
+      "position": "standing",
+      "movement_pattern": null,
+      "body_regions": [
+        {
+          "slug": "whole-body",
+          "name": "Whole Body",
+          "role": "primary"
+        },
+        {
+          "slug": "calf",
+          "name": "Calf / Lower Leg",
+          "role": "secondary"
+        }
+      ],
+      "muscles": [
+        {
+          "slug": "gastrocnemius",
+          "name": "Gastrocnemius",
+          "role": "secondary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "soleus",
+          "name": "Soleus",
+          "role": "secondary",
+          "structure_type": "muscle"
+        },
+        {
+          "slug": "gluteus-maximus",
+          "name": "Gluteus Maximus",
+          "role": "secondary",
+          "structure_type": "muscle"
+        }
+      ],
+      "primary_muscles": [],
+      "joints": [
+        {
+          "slug": "ankle-joint",
+          "name": "Ankle (Talocrural) Joint",
+          "movement": null
+        },
+        {
+          "slug": "knee-joint",
+          "name": "Knee (Tibiofemoral) Joint",
+          "movement": null
+        },
+        {
+          "slug": "hip-joint",
+          "name": "Hip Joint",
+          "movement": null
+        }
+      ],
+      "equipment": [],
+      "instructions": "1. After hard exercise, drop to an easy conversational pace.\n2. Walk 5-10 minutes, letting the breath settle.\n3. Add long exhales: in through the nose, slowly out.\n4. Finish with a full-body stretch of the day's tightest areas.",
+      "breathing": "Nasal inhale, long exhale.",
+      "safety_notes": null,
+      "contraindications": null,
+      "clinical_relevance": null,
+      "dosage": "5-10 minutes",
+      "origin": "curated",
+      "confidence": 0.92,
+      "review_status": "approved",
+      "is_medical_claim": false,
+      "source_count": 0,
+      "updated_at": "2026-09-05T20:07:05.109626+00:00",
+      "sources": []
+    },
+    {
+      "id": 147,
       "slug": "neck-to-ankle-scan",
       "name": "Body Scan Stretch Flow",
       "aliases": [
@@ -10433,11 +10433,11 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.056364+00:00",
+      "updated_at": "2026-09-05T20:07:05.113105+00:00",
       "sources": []
     },
     {
-      "id": 332,
+      "id": 148,
       "slug": "standing-side-body-stretch",
       "name": "Standing Side Body Stretch",
       "aliases": [
@@ -10511,7 +10511,7 @@
       "review_status": "approved",
       "is_medical_claim": false,
       "source_count": 0,
-      "updated_at": "2026-09-04T20:16:01.060635+00:00",
+      "updated_at": "2026-09-05T20:07:05.116942+00:00",
       "sources": []
     }
   ]

@@ -11,6 +11,16 @@ from datetime import datetime, timezone
 
 _CONFIGURED = False
 
+# Console robustness: some environments (fresh containers, cron, CI) default to
+# ASCII stdout; seed/taxonomy data contains non-ASCII names. Force UTF-8 with
+# replacement so the CLI never crashes on output encoding.
+for _stream in (sys.stdout, sys.stderr):
+    if _stream is not None and hasattr(_stream, "reconfigure"):
+        try:
+            _stream.reconfigure(encoding="utf-8", errors="replace")
+        except Exception:  # pragma: no cover - non-tty/exotic streams
+            pass
+
 EVENT_TYPES = {
     "crawl_started", "crawl_completed", "crawl_failed", "url_skipped",
     "exercise_extracted", "exercise_rejected", "duplicate_detected",

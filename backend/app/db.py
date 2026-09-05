@@ -27,6 +27,10 @@ def _engine_kwargs() -> dict:
     else:
         kwargs["pool_size"] = 10
         kwargs["max_overflow"] = 20
+        # Explicit UTF-8 client encoding: taxonomy/seed data contains non-ASCII
+        # names; servers initialized without a locale (SQL_ASCII) would otherwise
+        # crash psycopg2 with UnicodeEncodeError.
+        kwargs["connect_args"] = {"options": "-c client_encoding=UTF8"}
     return kwargs
 
 

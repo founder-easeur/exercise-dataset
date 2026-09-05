@@ -1,96 +1,96 @@
 [
   {
-    "id": 49,
+    "id": 1,
     "slug": "neck",
     "name": "Neck",
     "description": "Cervical spine and surrounding musculature."
   },
   {
-    "id": 50,
+    "id": 2,
     "slug": "jaw",
     "name": "Jaw / Face",
     "description": "Temporomandibular region and muscles of mastication."
   },
   {
-    "id": 51,
+    "id": 3,
     "slug": "shoulder",
     "name": "Shoulder",
     "description": "Glenohumeral joint, rotator cuff and scapular stabilisers."
   },
   {
-    "id": 52,
+    "id": 4,
     "slug": "upper-back",
     "name": "Upper Back",
     "description": "Thoracic spine and scapulothoracic musculature."
   },
   {
-    "id": 53,
+    "id": 5,
     "slug": "chest",
     "name": "Chest",
     "description": "Pectoral region."
   },
   {
-    "id": 54,
+    "id": 6,
     "slug": "lower-back",
     "name": "Lower Back",
     "description": "Lumbar spine, lumbopelvic and core musculature."
   },
   {
-    "id": 55,
+    "id": 7,
     "slug": "elbow",
     "name": "Elbow",
     "description": "Elbow joint and its flexors/extensors."
   },
   {
-    "id": 56,
+    "id": 8,
     "slug": "forearm",
     "name": "Forearm",
     "description": "Forearm flexor/extensor compartments and tendons."
   },
   {
-    "id": 57,
+    "id": 9,
     "slug": "wrist",
     "name": "Wrist",
     "description": "Radiocarpal joint and carpal structures."
   },
   {
-    "id": 58,
+    "id": 10,
     "slug": "hand",
     "name": "Hand",
     "description": "Intrinsic hand muscles and thumb complex."
   },
   {
-    "id": 59,
+    "id": 11,
     "slug": "hip",
     "name": "Hip / Pelvis",
     "description": "Hip joint, deep hip rotators and pelvic girdle."
   },
   {
-    "id": 60,
+    "id": 12,
     "slug": "knee",
     "name": "Knee",
     "description": "Tibiofemoral and patellofemoral joints."
   },
   {
-    "id": 61,
+    "id": 13,
     "slug": "calf",
     "name": "Calf / Lower Leg",
     "description": "Superficial and deep posterior, anterior and lateral compartments."
   },
   {
-    "id": 62,
+    "id": 14,
     "slug": "ankle",
     "name": "Ankle",
     "description": "Talocrural and subtalar joints with associated ligaments."
   },
   {
-    "id": 63,
+    "id": 15,
     "slug": "foot",
     "name": "Foot",
     "description": "Plantar fascia, intrinsic foot muscles and toe joints."
   },
   {
-    "id": 64,
+    "id": 16,
     "slug": "whole-body",
     "name": "Whole Body",
     "description": "Systemic / multi-region exercises (breathing, recovery, warm-ups)."
