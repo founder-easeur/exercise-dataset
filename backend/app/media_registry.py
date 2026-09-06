@@ -30,12 +30,10 @@ REGION_ILLUSTRATIONS: dict[str, str] = {
     "wrist": "wrist-hand.png",
     "hand": "wrist-hand.png",
     "hip": "hip.png",
-    # Lower-limb illustrations ship next batch; hip (half-kneeling lunge) is a
-    # reasonable lower-limb stand-in until knee/ankle files land.
-    "knee": "hip.png",
-    "calf": "hip.png",
-    "ankle": "hip.png",
-    "foot": "hip.png",
+    "knee": "knee.png",
+    "calf": "ankle-foot.png",
+    "ankle": "ankle-foot.png",
+    "foot": "ankle-foot.png",
     "whole-body": "whole-body.png",
 }
 

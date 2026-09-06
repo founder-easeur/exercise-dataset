@@ -9,7 +9,7 @@ from app.media_registry import (
 from app.models import Exercise
 
 #: Assets documented as shipping in the next generation batch.
-PENDING_ASSETS = {"whole-body.png"}
+PENDING_ASSETS: set[str] = set()
 
 
 def _active_exercises(db):

@@ -1,6 +1,6 @@
 # Data Quality Report
 
-_Generated 2026-09-04 20:44 UTC by the Easeur Exercise Knowledge Base pipeline._
+_Generated 2026-09-06 11:04 UTC by the Easeur Exercise Knowledge Base pipeline._
 
 ## Sources
 
@@ -13,8 +13,8 @@ _Generated 2026-09-04 20:44 UTC by the Easeur Exercise Knowledge Base pipeline._
 - Pages processed: **6**
 - Pages failed: **0**
 - URLs skipped by robots/policy: **0**
-- Exercise candidates extracted: **43**
-- Candidates linked to existing exercises (dedup stage 1): **6**
+- Exercise candidates extracted: **41**
+- Candidates linked to existing exercises (dedup stage 1): **4**
 - Candidates rejected during normalization: **1**
 - URL status breakdown: `processed`=6
 
@@ -70,8 +70,8 @@ Cervical Extensors (3), Levator Scapulae (2), Scalenes (3), Splenius Capitis & C
 
 | License | Sources |
 |---|---|
-| public_domain | 3 |
 | unknown | 2 |
+| public_domain | 3 |
 | restricted | 5 |
 
 ## Notes & caveats
