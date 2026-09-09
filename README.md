@@ -89,6 +89,7 @@ cd frontend && npx tsc --noEmit && npx next build
 
 ## Docs
 
+- `CLAUDE.md` — agent guide: repo orientation, non-negotiable rules, run/test commands, incremental-task recipes, gotchas (start here if you're an AI coding agent)
 - `DECISIONS.md` — architecture decisions D1–D14 with rationale
 - `docs/implementation-report.md` — final report: counts, endpoints, startup, limitations, next steps
 - `docs/data-quality-report.md` — generated dataset quality report
