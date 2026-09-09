@@ -1,0 +1,51 @@
+# Easeur Exercise Knowledge Base — full stack (API + Research UI + PostgreSQL)
+# Usage:  docker compose up --build
+#         then seed + aggregate inside the API container:
+#         docker compose exec api python -m app.cli init-db
+#         docker compose exec api python -m app.cli seed
+#         docker compose exec api python -m app.cli pipeline run-all
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: easeur
+      POSTGRES_PASSWORD: easeur
+      POSTGRES_DB: easeur
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U easeur -d easeur"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build: ./backend
+    environment:
+      EASEUR_DATABASE_URL: postgresql+psycopg2://easeur:easeur@db:5432/easeur
+      EASEUR_ADMIN_API_KEY: ${EASEUR_ADMIN_API_KEY:-dev-admin-key}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    # Long-running crawls are triggered via CLI; the container serves the API.
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+  ui:
+    build:
+      context: ./frontend
+      args:
+        BACKEND_URL: http://api:8000
+    environment:
+      BACKEND_URL: http://api:8000
+    depends_on:
+      - api
+    ports:
+      - "3000:3000"
+    command: npm run start
+
+volumes:
+  pgdata:
