@@ -103,14 +103,20 @@ function ExercisesInner() {
     [q, filters, page],
   );
 
+  // The shareable PAGE url (never the API path — see exercise-filters.ts).
+  const pageUrl = useMemo(
+    () => buildExercisesPageUrl(q, filters, page),
+    [q, filters, page],
+  );
+
   useEffect(() => {
     setLoading(true);
     apiGet<ListResponse>(query)
       .then(setData)
       .catch(() => setData({ total: 0, page: 1, page_size: 24, items: [] }))
       .finally(() => setLoading(false));
-    router.replace(query, { scroll: false });
-  }, [query, router]);
+    router.replace(pageUrl, { scroll: false });
+  }, [query, pageUrl, router]);
 
   const set = useCallback((key: string, value: string) => {
     setPage(1);
