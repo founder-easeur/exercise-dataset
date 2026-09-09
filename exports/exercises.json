@@ -1,5 +1,5 @@
 {
-  "exported_at": "2026-09-06T11:04:56.841332+00:00",
+  "exported_at": "2026-09-09T13:02:35.731278+00:00",
   "count": 148,
   "exercises": [
     {
@@ -70,7 +70,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.256699+00:00",
+      "updated_at": "2026-09-09T13:02:30.590200+00:00",
       "sources": []
     },
     {
@@ -136,7 +136,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.260822+00:00",
+      "updated_at": "2026-09-09T13:02:30.593184+00:00",
       "sources": []
     },
     {
@@ -203,7 +203,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.275008+00:00",
+      "updated_at": "2026-09-09T13:02:30.604033+00:00",
       "sources": []
     },
     {
@@ -266,7 +266,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.282291+00:00",
+      "updated_at": "2026-09-09T13:02:30.610050+00:00",
       "sources": []
     },
     {
@@ -342,7 +342,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.292690+00:00",
+      "updated_at": "2026-09-09T13:02:30.615366+00:00",
       "sources": []
     },
     {
@@ -406,7 +406,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.300163+00:00",
+      "updated_at": "2026-09-09T13:02:30.619384+00:00",
       "sources": []
     },
     {
@@ -470,7 +470,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.312776+00:00",
+      "updated_at": "2026-09-09T13:02:30.625721+00:00",
       "sources": []
     },
     {
@@ -533,7 +533,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.320294+00:00",
+      "updated_at": "2026-09-09T13:02:30.629542+00:00",
       "sources": []
     },
     {
@@ -604,7 +604,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.327653+00:00",
+      "updated_at": "2026-09-09T13:02:30.633846+00:00",
       "sources": []
     },
     {
@@ -675,7 +675,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.332673+00:00",
+      "updated_at": "2026-09-09T13:02:30.638320+00:00",
       "sources": []
     },
     {
@@ -747,7 +747,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.337375+00:00",
+      "updated_at": "2026-09-09T13:02:30.643270+00:00",
       "sources": []
     },
     {
@@ -830,7 +830,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.342335+00:00",
+      "updated_at": "2026-09-09T13:02:30.647882+00:00",
       "sources": []
     },
     {
@@ -900,7 +900,7 @@
           "region": "neck"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.348135+00:00",
+      "updated_at": "2026-09-09T13:02:30.655850+00:00",
       "sources": []
     },
     {
@@ -985,7 +985,7 @@
           "region": "upper-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.353514+00:00",
+      "updated_at": "2026-09-09T13:02:30.661122+00:00",
       "sources": []
     },
     {
@@ -1053,7 +1053,7 @@
           "region": "jaw"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.357917+00:00",
+      "updated_at": "2026-09-09T13:02:30.666277+00:00",
       "sources": []
     },
     {
@@ -1123,7 +1123,7 @@
           "region": "jaw"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.363040+00:00",
+      "updated_at": "2026-09-09T13:02:30.671825+00:00",
       "sources": []
     },
     {
@@ -1199,7 +1199,7 @@
           "region": "jaw"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.367152+00:00",
+      "updated_at": "2026-09-09T13:02:30.676224+00:00",
       "sources": []
     },
     {
@@ -1271,14 +1271,14 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.370978+00:00",
+      "updated_at": "2026-09-09T13:02:30.680895+00:00",
       "sources": [
         {
           "source": "OrthoInfo \u2014 American Academy of Orthopaedic Surgeons",
           "domain": "www.orthoinfo.org",
           "url": "https://www.orthoinfo.org/recovery/rotator-cuff-and-shoulder-conditioning-program/",
           "license": "restricted",
-          "retrieved_at": "2026-09-06T11:04:53.990798+00:00"
+          "retrieved_at": "2026-09-09T13:02:32.833302+00:00"
         }
       ]
     },
@@ -1368,7 +1368,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.374985+00:00",
+      "updated_at": "2026-09-09T13:02:30.685971+00:00",
       "sources": []
     },
     {
@@ -1452,7 +1452,7 @@
           "region": "chest"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.379501+00:00",
+      "updated_at": "2026-09-09T13:02:30.691468+00:00",
       "sources": []
     },
     {
@@ -1535,7 +1535,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.384099+00:00",
+      "updated_at": "2026-09-09T13:02:30.697230+00:00",
       "sources": []
     },
     {
@@ -1609,7 +1609,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.389237+00:00",
+      "updated_at": "2026-09-09T13:02:30.703444+00:00",
       "sources": []
     },
     {
@@ -1687,7 +1687,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.475582+00:00",
+      "updated_at": "2026-09-09T13:02:30.800613+00:00",
       "sources": []
     },
     {
@@ -1759,7 +1759,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.394055+00:00",
+      "updated_at": "2026-09-09T13:02:30.709465+00:00",
       "sources": []
     },
     {
@@ -1842,7 +1842,7 @@
           "region": "upper-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.399157+00:00",
+      "updated_at": "2026-09-09T13:02:30.719825+00:00",
       "sources": []
     },
     {
@@ -1931,7 +1931,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.404837+00:00",
+      "updated_at": "2026-09-09T13:02:30.728337+00:00",
       "sources": []
     },
     {
@@ -2008,7 +2008,7 @@
           "region": "upper-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.410658+00:00",
+      "updated_at": "2026-09-09T13:02:30.735782+00:00",
       "sources": []
     },
     {
@@ -2088,7 +2088,7 @@
           "region": "upper-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.418130+00:00",
+      "updated_at": "2026-09-09T13:02:30.744390+00:00",
       "sources": []
     },
     {
@@ -2172,7 +2172,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.423385+00:00",
+      "updated_at": "2026-09-09T13:02:30.752791+00:00",
       "sources": []
     },
     {
@@ -2250,7 +2250,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.432227+00:00",
+      "updated_at": "2026-09-09T13:02:30.760958+00:00",
       "sources": []
     },
     {
@@ -2334,7 +2334,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.439156+00:00",
+      "updated_at": "2026-09-09T13:02:30.767387+00:00",
       "sources": []
     },
     {
@@ -2424,7 +2424,7 @@
           "region": "upper-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.445000+00:00",
+      "updated_at": "2026-09-09T13:02:30.773114+00:00",
       "sources": []
     },
     {
@@ -2497,7 +2497,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.451335+00:00",
+      "updated_at": "2026-09-09T13:02:30.778964+00:00",
       "sources": []
     },
     {
@@ -2563,7 +2563,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.457555+00:00",
+      "updated_at": "2026-09-09T13:02:30.784442+00:00",
       "sources": []
     },
     {
@@ -2653,7 +2653,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.463616+00:00",
+      "updated_at": "2026-09-09T13:02:30.790291+00:00",
       "sources": []
     },
     {
@@ -2737,7 +2737,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.469316+00:00",
+      "updated_at": "2026-09-09T13:02:30.795206+00:00",
       "sources": []
     },
     {
@@ -2819,7 +2819,7 @@
           "region": "upper-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.481576+00:00",
+      "updated_at": "2026-09-09T13:02:30.805462+00:00",
       "sources": []
     },
     {
@@ -2909,7 +2909,7 @@
           "region": "upper-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.488320+00:00",
+      "updated_at": "2026-09-09T13:02:30.810375+00:00",
       "sources": []
     },
     {
@@ -2994,7 +2994,7 @@
           "region": "upper-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.495342+00:00",
+      "updated_at": "2026-09-09T13:02:30.815582+00:00",
       "sources": []
     },
     {
@@ -3078,7 +3078,7 @@
           "region": "upper-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.501611+00:00",
+      "updated_at": "2026-09-09T13:02:30.820854+00:00",
       "sources": []
     },
     {
@@ -3179,7 +3179,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.507829+00:00",
+      "updated_at": "2026-09-09T13:02:30.826298+00:00",
       "sources": []
     },
     {
@@ -3281,7 +3281,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.513311+00:00",
+      "updated_at": "2026-09-09T13:02:30.833114+00:00",
       "sources": []
     },
     {
@@ -3369,7 +3369,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.518485+00:00",
+      "updated_at": "2026-09-09T13:02:30.839192+00:00",
       "sources": []
     },
     {
@@ -3449,7 +3449,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.524324+00:00",
+      "updated_at": "2026-09-09T13:02:30.846788+00:00",
       "sources": []
     },
     {
@@ -3533,7 +3533,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.529644+00:00",
+      "updated_at": "2026-09-09T13:02:30.853490+00:00",
       "sources": []
     },
     {
@@ -3620,7 +3620,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.534221+00:00",
+      "updated_at": "2026-09-09T13:02:30.860281+00:00",
       "sources": []
     },
     {
@@ -3705,7 +3705,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.538688+00:00",
+      "updated_at": "2026-09-09T13:02:30.866779+00:00",
       "sources": []
     },
     {
@@ -3773,7 +3773,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.543515+00:00",
+      "updated_at": "2026-09-09T13:02:30.871871+00:00",
       "sources": []
     },
     {
@@ -3844,7 +3844,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.548818+00:00",
+      "updated_at": "2026-09-09T13:02:30.877208+00:00",
       "sources": []
     },
     {
@@ -3924,7 +3924,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.553306+00:00",
+      "updated_at": "2026-09-09T13:02:30.882150+00:00",
       "sources": []
     },
     {
@@ -3998,7 +3998,7 @@
           "region": "wrist"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.558212+00:00",
+      "updated_at": "2026-09-09T13:02:30.888032+00:00",
       "sources": []
     },
     {
@@ -4072,7 +4072,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.563015+00:00",
+      "updated_at": "2026-09-09T13:02:30.893402+00:00",
       "sources": []
     },
     {
@@ -4143,7 +4143,7 @@
           "region": "wrist"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.568087+00:00",
+      "updated_at": "2026-09-09T13:02:30.898066+00:00",
       "sources": []
     },
     {
@@ -4219,7 +4219,7 @@
           "region": "wrist"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.572822+00:00",
+      "updated_at": "2026-09-09T13:02:30.902477+00:00",
       "sources": []
     },
     {
@@ -4297,7 +4297,7 @@
           "region": "wrist"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.577229+00:00",
+      "updated_at": "2026-09-09T13:02:30.907335+00:00",
       "sources": []
     },
     {
@@ -4376,7 +4376,7 @@
           "region": "forearm"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.582052+00:00",
+      "updated_at": "2026-09-09T13:02:30.913138+00:00",
       "sources": []
     },
     {
@@ -4447,7 +4447,7 @@
           "region": "hand"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.587586+00:00",
+      "updated_at": "2026-09-09T13:02:30.921756+00:00",
       "sources": []
     },
     {
@@ -4529,7 +4529,7 @@
           "region": "hand"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.592593+00:00",
+      "updated_at": "2026-09-09T13:02:30.929211+00:00",
       "sources": []
     },
     {
@@ -4607,7 +4607,7 @@
           "region": "hand"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.597044+00:00",
+      "updated_at": "2026-09-09T13:02:30.935324+00:00",
       "sources": []
     },
     {
@@ -4684,7 +4684,7 @@
           "region": "hand"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.601949+00:00",
+      "updated_at": "2026-09-09T13:02:30.942373+00:00",
       "sources": []
     },
     {
@@ -4753,7 +4753,7 @@
           "region": "hand"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.606239+00:00",
+      "updated_at": "2026-09-09T13:02:30.948506+00:00",
       "sources": []
     },
     {
@@ -4843,7 +4843,7 @@
           "region": "hand"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.610638+00:00",
+      "updated_at": "2026-09-09T13:02:30.954634+00:00",
       "sources": []
     },
     {
@@ -4927,7 +4927,7 @@
           "region": "hand"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.615388+00:00",
+      "updated_at": "2026-09-09T13:02:30.961134+00:00",
       "sources": []
     },
     {
@@ -5005,7 +5005,7 @@
           "region": "hand"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.620952+00:00",
+      "updated_at": "2026-09-09T13:02:30.969708+00:00",
       "sources": []
     },
     {
@@ -5095,7 +5095,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.626202+00:00",
+      "updated_at": "2026-09-09T13:02:30.977308+00:00",
       "sources": []
     },
     {
@@ -5191,7 +5191,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.631583+00:00",
+      "updated_at": "2026-09-09T13:02:30.985085+00:00",
       "sources": []
     },
     {
@@ -5274,7 +5274,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.636893+00:00",
+      "updated_at": "2026-09-09T13:02:30.992400+00:00",
       "sources": []
     },
     {
@@ -5351,7 +5351,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.642218+00:00",
+      "updated_at": "2026-09-09T13:02:30.999616+00:00",
       "sources": []
     },
     {
@@ -5444,7 +5444,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.647468+00:00",
+      "updated_at": "2026-09-09T13:02:31.005678+00:00",
       "sources": []
     },
     {
@@ -5524,7 +5524,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.651996+00:00",
+      "updated_at": "2026-09-09T13:02:31.011179+00:00",
       "sources": []
     },
     {
@@ -5613,7 +5613,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.657205+00:00",
+      "updated_at": "2026-09-09T13:02:31.017130+00:00",
       "sources": []
     },
     {
@@ -5703,7 +5703,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.662418+00:00",
+      "updated_at": "2026-09-09T13:02:31.022176+00:00",
       "sources": []
     },
     {
@@ -5786,7 +5786,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.667920+00:00",
+      "updated_at": "2026-09-09T13:02:31.027711+00:00",
       "sources": []
     },
     {
@@ -5865,7 +5865,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.673200+00:00",
+      "updated_at": "2026-09-09T13:02:31.033456+00:00",
       "sources": []
     },
     {
@@ -5923,7 +5923,7 @@
           "region": "whole-body"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.678518+00:00",
+      "updated_at": "2026-09-09T13:02:31.038461+00:00",
       "sources": []
     },
     {
@@ -6015,7 +6015,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.812899+00:00",
+      "updated_at": "2026-09-09T13:02:31.166287+00:00",
       "sources": []
     },
     {
@@ -6087,7 +6087,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.683683+00:00",
+      "updated_at": "2026-09-09T13:02:31.043892+00:00",
       "sources": []
     },
     {
@@ -6176,7 +6176,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.687670+00:00",
+      "updated_at": "2026-09-09T13:02:31.047657+00:00",
       "sources": []
     },
     {
@@ -6266,7 +6266,7 @@
           "region": "lower-back"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.692344+00:00",
+      "updated_at": "2026-09-09T13:02:31.052232+00:00",
       "sources": []
     },
     {
@@ -6358,7 +6358,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.697918+00:00",
+      "updated_at": "2026-09-09T13:02:31.057507+00:00",
       "sources": []
     },
     {
@@ -6452,7 +6452,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.703651+00:00",
+      "updated_at": "2026-09-09T13:02:31.062812+00:00",
       "sources": []
     },
     {
@@ -6539,7 +6539,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.709085+00:00",
+      "updated_at": "2026-09-09T13:02:31.067916+00:00",
       "sources": []
     },
     {
@@ -6631,7 +6631,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.714409+00:00",
+      "updated_at": "2026-09-09T13:02:31.073174+00:00",
       "sources": []
     },
     {
@@ -6718,7 +6718,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.719999+00:00",
+      "updated_at": "2026-09-09T13:02:31.078078+00:00",
       "sources": []
     },
     {
@@ -6811,7 +6811,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.725823+00:00",
+      "updated_at": "2026-09-09T13:02:31.083221+00:00",
       "sources": []
     },
     {
@@ -6881,7 +6881,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.730838+00:00",
+      "updated_at": "2026-09-09T13:02:31.087854+00:00",
       "sources": []
     },
     {
@@ -6964,7 +6964,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.735869+00:00",
+      "updated_at": "2026-09-09T13:02:31.092435+00:00",
       "sources": []
     },
     {
@@ -7043,7 +7043,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.740567+00:00",
+      "updated_at": "2026-09-09T13:02:31.096827+00:00",
       "sources": []
     },
     {
@@ -7123,7 +7123,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.745829+00:00",
+      "updated_at": "2026-09-09T13:02:31.102404+00:00",
       "sources": []
     },
     {
@@ -7207,7 +7207,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.750964+00:00",
+      "updated_at": "2026-09-09T13:02:31.107432+00:00",
       "sources": []
     },
     {
@@ -7290,7 +7290,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.756262+00:00",
+      "updated_at": "2026-09-09T13:02:31.112941+00:00",
       "sources": []
     },
     {
@@ -7369,7 +7369,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.761476+00:00",
+      "updated_at": "2026-09-09T13:02:31.117866+00:00",
       "sources": []
     },
     {
@@ -7448,7 +7448,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.766002+00:00",
+      "updated_at": "2026-09-09T13:02:31.122357+00:00",
       "sources": []
     },
     {
@@ -7526,7 +7526,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.771360+00:00",
+      "updated_at": "2026-09-09T13:02:31.127236+00:00",
       "sources": []
     },
     {
@@ -7609,7 +7609,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.776036+00:00",
+      "updated_at": "2026-09-09T13:02:31.131685+00:00",
       "sources": []
     },
     {
@@ -7688,7 +7688,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.780665+00:00",
+      "updated_at": "2026-09-09T13:02:31.136121+00:00",
       "sources": []
     },
     {
@@ -7793,7 +7793,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.786104+00:00",
+      "updated_at": "2026-09-09T13:02:31.141660+00:00",
       "sources": []
     },
     {
@@ -7882,7 +7882,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.791263+00:00",
+      "updated_at": "2026-09-09T13:02:31.146394+00:00",
       "sources": []
     },
     {
@@ -7974,19 +7974,19 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/knee.png",
+          "file": "knee.png",
           "region": "knee"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.796471+00:00",
+      "updated_at": "2026-09-09T13:02:31.151419+00:00",
       "sources": [
         {
           "source": "OrthoInfo \u2014 American Academy of Orthopaedic Surgeons",
           "domain": "www.orthoinfo.org",
           "url": "https://www.orthoinfo.org/recovery/knee-conditioning-program/",
           "license": "restricted",
-          "retrieved_at": "2026-09-06T11:04:54.158471+00:00"
+          "retrieved_at": "2026-09-09T13:02:32.994121+00:00"
         }
       ]
     },
@@ -8062,12 +8062,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/knee.png",
+          "file": "knee.png",
           "region": "knee"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.801916+00:00",
+      "updated_at": "2026-09-09T13:02:31.156641+00:00",
       "sources": []
     },
     {
@@ -8159,7 +8159,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.807386+00:00",
+      "updated_at": "2026-09-09T13:02:31.161646+00:00",
       "sources": []
     },
     {
@@ -8241,12 +8241,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/knee.png",
+          "file": "knee.png",
           "region": "knee"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.818806+00:00",
+      "updated_at": "2026-09-09T13:02:31.171495+00:00",
       "sources": []
     },
     {
@@ -8330,7 +8330,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.824806+00:00",
+      "updated_at": "2026-09-09T13:02:31.177775+00:00",
       "sources": []
     },
     {
@@ -8409,12 +8409,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/knee.png",
+          "file": "knee.png",
           "region": "knee"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.830419+00:00",
+      "updated_at": "2026-09-09T13:02:31.186260+00:00",
       "sources": []
     },
     {
@@ -8505,12 +8505,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/knee.png",
+          "file": "knee.png",
           "region": "knee"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.835676+00:00",
+      "updated_at": "2026-09-09T13:02:31.194371+00:00",
       "sources": []
     },
     {
@@ -8578,12 +8578,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/knee.png",
+          "file": "knee.png",
           "region": "knee"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.840721+00:00",
+      "updated_at": "2026-09-09T13:02:31.200751+00:00",
       "sources": []
     },
     {
@@ -8642,12 +8642,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/knee.png",
+          "file": "knee.png",
           "region": "knee"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.846063+00:00",
+      "updated_at": "2026-09-09T13:02:31.206110+00:00",
       "sources": []
     },
     {
@@ -8725,12 +8725,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/knee.png",
+          "file": "knee.png",
           "region": "knee"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.851093+00:00",
+      "updated_at": "2026-09-09T13:02:31.210932+00:00",
       "sources": []
     },
     {
@@ -8813,7 +8813,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.855969+00:00",
+      "updated_at": "2026-09-09T13:02:31.215361+00:00",
       "sources": []
     },
     {
@@ -8887,12 +8887,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.861157+00:00",
+      "updated_at": "2026-09-09T13:02:31.220139+00:00",
       "sources": []
     },
     {
@@ -8984,12 +8984,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.865801+00:00",
+      "updated_at": "2026-09-09T13:02:31.224633+00:00",
       "sources": []
     },
     {
@@ -9069,12 +9069,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.870976+00:00",
+      "updated_at": "2026-09-09T13:02:31.230525+00:00",
       "sources": []
     },
     {
@@ -9155,12 +9155,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.876614+00:00",
+      "updated_at": "2026-09-09T13:02:31.236225+00:00",
       "sources": []
     },
     {
@@ -9247,12 +9247,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.881915+00:00",
+      "updated_at": "2026-09-09T13:02:31.241430+00:00",
       "sources": []
     },
     {
@@ -9333,12 +9333,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.887360+00:00",
+      "updated_at": "2026-09-09T13:02:31.246281+00:00",
       "sources": []
     },
     {
@@ -9423,12 +9423,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.892851+00:00",
+      "updated_at": "2026-09-09T13:02:31.250943+00:00",
       "sources": []
     },
     {
@@ -9497,12 +9497,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.898344+00:00",
+      "updated_at": "2026-09-09T13:02:31.256231+00:00",
       "sources": []
     },
     {
@@ -9586,12 +9586,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "ankle"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.903911+00:00",
+      "updated_at": "2026-09-09T13:02:31.261744+00:00",
       "sources": []
     },
     {
@@ -9670,12 +9670,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "ankle"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.908773+00:00",
+      "updated_at": "2026-09-09T13:02:31.266237+00:00",
       "sources": []
     },
     {
@@ -9747,12 +9747,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "ankle"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.914330+00:00",
+      "updated_at": "2026-09-09T13:02:31.271289+00:00",
       "sources": []
     },
     {
@@ -9832,12 +9832,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "ankle"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.919816+00:00",
+      "updated_at": "2026-09-09T13:02:31.276507+00:00",
       "sources": []
     },
     {
@@ -9923,12 +9923,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "ankle"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.925101+00:00",
+      "updated_at": "2026-09-09T13:02:31.281226+00:00",
       "sources": []
     },
     {
@@ -10012,12 +10012,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "ankle"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.930569+00:00",
+      "updated_at": "2026-09-09T13:02:31.287167+00:00",
       "sources": []
     },
     {
@@ -10096,12 +10096,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.936381+00:00",
+      "updated_at": "2026-09-09T13:02:31.294046+00:00",
       "sources": []
     },
     {
@@ -10193,12 +10193,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "ankle"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.941973+00:00",
+      "updated_at": "2026-09-09T13:02:31.299857+00:00",
       "sources": []
     },
     {
@@ -10285,12 +10285,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "ankle"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.947460+00:00",
+      "updated_at": "2026-09-09T13:02:31.305598+00:00",
       "sources": []
     },
     {
@@ -10366,12 +10366,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.952878+00:00",
+      "updated_at": "2026-09-09T13:02:31.311276+00:00",
       "sources": []
     },
     {
@@ -10447,12 +10447,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.958291+00:00",
+      "updated_at": "2026-09-09T13:02:31.317785+00:00",
       "sources": []
     },
     {
@@ -10535,12 +10535,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.963513+00:00",
+      "updated_at": "2026-09-09T13:02:31.323482+00:00",
       "sources": []
     },
     {
@@ -10619,12 +10619,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.968664+00:00",
+      "updated_at": "2026-09-09T13:02:31.329313+00:00",
       "sources": []
     },
     {
@@ -10703,12 +10703,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.973995+00:00",
+      "updated_at": "2026-09-09T13:02:31.335306+00:00",
       "sources": []
     },
     {
@@ -10783,12 +10783,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.978620+00:00",
+      "updated_at": "2026-09-09T13:02:31.340734+00:00",
       "sources": []
     },
     {
@@ -10863,12 +10863,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.983282+00:00",
+      "updated_at": "2026-09-09T13:02:31.346328+00:00",
       "sources": []
     },
     {
@@ -10959,12 +10959,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.988203+00:00",
+      "updated_at": "2026-09-09T13:02:31.353884+00:00",
       "sources": []
     },
     {
@@ -11050,12 +11050,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.993300+00:00",
+      "updated_at": "2026-09-09T13:02:31.360779+00:00",
       "sources": []
     },
     {
@@ -11128,12 +11128,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "ankle"
         }
       ],
-      "updated_at": "2026-09-06T11:04:52.998855+00:00",
+      "updated_at": "2026-09-09T13:02:31.366626+00:00",
       "sources": []
     },
     {
@@ -11207,12 +11207,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "calf"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.004344+00:00",
+      "updated_at": "2026-09-09T13:02:31.372329+00:00",
       "sources": []
     },
     {
@@ -11287,12 +11287,12 @@
           "license": "ai-generated",
           "credit": "AI-generated illustration created for the Easeur Exercise Knowledge Base (no third-party rights)",
           "origin": "generated",
-          "url": "/static/exercises/hip.png",
-          "file": "hip.png",
+          "url": "/static/exercises/ankle-foot.png",
+          "file": "ankle-foot.png",
           "region": "foot"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.009347+00:00",
+      "updated_at": "2026-09-09T13:02:31.377868+00:00",
       "sources": []
     },
     {
@@ -11381,7 +11381,7 @@
           "region": "shoulder"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.014027+00:00",
+      "updated_at": "2026-09-09T13:02:31.382900+00:00",
       "sources": []
     },
     {
@@ -11466,7 +11466,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.019004+00:00",
+      "updated_at": "2026-09-09T13:02:31.388746+00:00",
       "sources": []
     },
     {
@@ -11549,7 +11549,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.024950+00:00",
+      "updated_at": "2026-09-09T13:02:31.393494+00:00",
       "sources": []
     },
     {
@@ -11629,7 +11629,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.029911+00:00",
+      "updated_at": "2026-09-09T13:02:31.398431+00:00",
       "sources": []
     },
     {
@@ -11735,7 +11735,7 @@
           "region": "hip"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.034505+00:00",
+      "updated_at": "2026-09-09T13:02:31.403214+00:00",
       "sources": []
     },
     {
@@ -11819,7 +11819,7 @@
           "region": "whole-body"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.039641+00:00",
+      "updated_at": "2026-09-09T13:02:31.408093+00:00",
       "sources": []
     },
     {
@@ -11880,7 +11880,7 @@
           "region": "whole-body"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.045021+00:00",
+      "updated_at": "2026-09-09T13:02:31.413331+00:00",
       "sources": []
     },
     {
@@ -11969,7 +11969,7 @@
           "region": "whole-body"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.050291+00:00",
+      "updated_at": "2026-09-09T13:02:31.418425+00:00",
       "sources": []
     },
     {
@@ -12050,7 +12050,7 @@
           "region": "whole-body"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.054627+00:00",
+      "updated_at": "2026-09-09T13:02:31.422721+00:00",
       "sources": []
     },
     {
@@ -12139,7 +12139,7 @@
           "region": "whole-body"
         }
       ],
-      "updated_at": "2026-09-06T11:04:53.060154+00:00",
+      "updated_at": "2026-09-09T13:02:31.427186+00:00",
       "sources": []
     }
   ]

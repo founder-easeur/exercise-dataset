@@ -1,6 +1,6 @@
 # Data Quality Report
 
-_Generated 2026-09-06 11:04 UTC by the Easeur Exercise Knowledge Base pipeline._
+_Generated 2026-09-09 13:02 UTC by the Easeur Exercise Knowledge Base pipeline._
 
 ## Sources
 
