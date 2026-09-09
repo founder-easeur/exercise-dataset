@@ -5,6 +5,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 import { ExerciseCard } from "@/components/exercise-card";
 import { Card, EmptyState, PageHeader, Pagination } from "@/components/ui";
 import { apiGet, apiUrl, type ExerciseSummary } from "@/lib/api";
+import { buildExercisesPageUrl, DEFAULT_FILTERS, type ExerciseFilters } from "@/lib/exercise-filters";
 
 interface ListResponse {
   total: number;
@@ -31,22 +32,16 @@ function ExercisesInner() {
   const params = useSearchParams();
 
   const [q, setQ] = useState(params.get("q") || "");
-  const [filters, setFilters] = useState({
-    region: params.get("region") || "",
-    muscle: params.get("muscle") || "",
-    muscle_group: "",
-    joint: "",
-    type: params.get("type") || "",
-    equipment: "",
-    difficulty: "",
-    position: "",
-    status: params.get("status") || "all",
-    confidence: params.get("confidence") || "",
-    source: params.get("source") || "",
-    origin: "",
-    sort: "name",
+  const [filters, setFilters] = useState<ExerciseFilters>(() => {
+    // Hydrate every known filter from the URL so shared links reproduce the view.
+    const f = { ...DEFAULT_FILTERS };
+    for (const key of Object.keys(f) as (keyof ExerciseFilters)[]) {
+      const v = params.get(key);
+      if (v) f[key] = v;
+    }
+    return f;
   });
-  const [page, setPage] = useState(1);
+  const [page, setPage] = useState(() => Number(params.get("page")) || 1);
   const [data, setData] = useState<ListResponse | null>(null);
   const [loading, setLoading] = useState(true);
   const [refs, setRefs] = useState<{
@@ -124,10 +119,7 @@ function ExercisesInner() {
 
   function reset() {
     setQ("");
-    setFilters({
-      region: "", muscle: "", muscle_group: "", joint: "", type: "", equipment: "",
-      difficulty: "", position: "", status: "all", confidence: "", source: "", origin: "", sort: "name",
-    });
+    setFilters({ ...DEFAULT_FILTERS });
     setPage(1);
   }
 

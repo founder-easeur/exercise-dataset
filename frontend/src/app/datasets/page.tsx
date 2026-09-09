@@ -43,6 +43,7 @@ export default function DatasetsPage() {
               <div className="flex gap-1.5">
                 {FORMATS.map((f) => (
                   <a key={f} href={`/api/v1/export?dataset=${e.dataset}&fmt=${f}`}
+                    download={`easeur-${e.dataset}.${f}`}
                     className="rounded-lg border border-app px-2.5 py-1 text-xs font-medium uppercase transition hover:border-brand-400 hover:text-brand-600 dark:hover:text-brand-400">
                     {f}
                   </a>
