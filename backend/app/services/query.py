@@ -9,8 +9,9 @@ from sqlalchemy.orm import Session, joinedload, selectinload
 from app.enums import Difficulty, ExerciseRole, RecordOrigin, RegionRole, ReviewStatus
 from app.models import (
     BodyRegion, Equipment, Exercise, ExerciseBodyRegion, ExerciseEquipment,
-    ExerciseJoint, ExerciseMuscle, ExerciseSource, ExerciseType, Joint, Muscle,
-    Provenance, ReviewQueueItem, Source, SourceDocument,
+    ExerciseJoint, ExerciseMuscle, ExerciseReference, ExerciseSource,
+    ExerciseType, Joint, Muscle, Provenance, ReviewQueueItem, Source,
+    SourceDocument,
 )
 
 
@@ -128,6 +129,7 @@ def get_exercise(db: Session, id_or_slug: str | int) -> Exercise | None:
         selectinload(Exercise.equipment).selectinload(ExerciseEquipment.equipment),
         selectinload(Exercise.sources).selectinload(ExerciseSource.source),
         selectinload(Exercise.sources).selectinload(ExerciseSource.source_document),
+        selectinload(Exercise.references).selectinload(ExerciseReference.source),
         selectinload(Exercise.provenance).selectinload(Provenance.source_document),
     )
     if isinstance(id_or_slug, int) or (isinstance(id_or_slug, str) and id_or_slug.isdigit()):

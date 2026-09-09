@@ -39,7 +39,8 @@ def db(engine):
     with engine.begin() as conn:
         conn.execute(text(
             "TRUNCATE TABLE exercise_muscles, exercise_body_regions, exercise_joints, "
-            "exercise_equipment, exercise_variations, exercise_sources, provenance, "
+            "exercise_equipment, exercise_variations, exercise_references, "
+            "exercise_sources, provenance, "
             "data_conflicts, review_queue, audit_log, ai_events, dataset_versions, "
             "crawl_urls, crawl_jobs, source_documents, sources, exercises, muscles, "
             "muscle_groups, body_regions, joints, equipment, exercise_types RESTART IDENTITY CASCADE"))

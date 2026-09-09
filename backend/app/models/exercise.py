@@ -82,6 +82,9 @@ class Exercise(Base):
     sources: Mapped[list["ExerciseSource"]] = relationship(  # noqa: F821
         back_populates="exercise", cascade="all, delete-orphan"
     )
+    references: Mapped[list["ExerciseReference"]] = relationship(
+        back_populates="exercise", cascade="all, delete-orphan"
+    )
     provenance: Mapped[list["Provenance"]] = relationship(  # noqa: F821
         back_populates="exercise", cascade="all, delete-orphan"
     )
@@ -191,3 +194,33 @@ class ExerciseVariation(Base):
 
     parent: Mapped["Exercise"] = relationship(foreign_keys=[parent_exercise_id])
     variation: Mapped["Exercise"] = relationship(foreign_keys=[variation_exercise_id])
+
+
+class ExerciseReference(Base):
+    """Curated outbound reference: an authoritative page where this exercise is
+    demonstrated (official images/GIFs/videos live there). We link — never
+    re-host — source media (DECISIONS.md D7)."""
+    __tablename__ = "exercise_references"
+    __table_args__ = (
+        UniqueConstraint("exercise_id", "url", name="uq_exercise_reference_url"),
+    )
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    exercise_id: Mapped[int] = mapped_column(
+        ForeignKey("exercises.id", ondelete="CASCADE"), index=True
+    )
+    source_id: Mapped[int | None] = mapped_column(
+        ForeignKey("sources.id"), nullable=True, index=True
+    )
+    label: Mapped[str] = mapped_column(String(300))
+    url: Mapped[str] = mapped_column(String(800))
+    # demonstration = exact page demonstrating this exercise (aggregated docs);
+    # program = official exercise program containing it; article = background.
+    kind: Mapped[str] = mapped_column(String(30), default="program")
+    notes: Mapped[str | None] = mapped_column(Text, nullable=True)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True), default=datetime.utcnow
+    )
+
+    exercise: Mapped["Exercise"] = relationship(back_populates="references")
+    source: Mapped["Source | None"] = relationship()  # noqa: F821

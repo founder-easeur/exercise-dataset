@@ -88,7 +88,11 @@ and (b) animated SVG movement previews rendered client-side from structured
 data (position + movement pattern + target regions — code, not media). A
 future `media_assets` table can hold source-licensed photos/GIFs when a source
 explicitly permits reuse; the serializer contract (`kind/url/license/credit`)
-is shaped for that.
+is shaped for that. Every exercise additionally carries outbound
+`exercise_references` — official demonstration pages (exact source document
+for aggregated records; authoritative program pages per body region for
+curated ones) — so users can always verify the movement at the source, where
+the original images/GIFs/videos live.
 
 **Why.** workout.easeur.com is commercial; "ask forgiveness" scraping is not an
 option. Facts themselves are not copyrightable, but expression — including

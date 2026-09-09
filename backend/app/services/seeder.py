@@ -187,5 +187,59 @@ def run_full_seed(db: Session) -> dict:
         "taxonomy": seed_taxonomy(db),
         "sources": seed_sources(db),
         "exercises": seed_curated_exercises(db),
+        "references": seed_references(db),
     }
     return result
+
+
+def seed_references(db: Session) -> dict:
+    """Give every active exercise an outbound authoritative reference.
+
+    Aggregated exercises reference the exact source document they were
+    extracted from (kind=demonstration). Curated exercises get the official
+    program pages for their primary body region (kind=program/article).
+    Idempotent on (exercise_id, url).
+    """
+    from app.models import Exercise, ExerciseReference, Source
+    from app.taxonomy.reference_map import FALLBACK_REFERENCES, REGION_REFERENCES
+
+    stats = {"demonstration": 0, "program": 0, "skipped": 0}
+    sources_by_slug = {s.slug: s for s in db.execute(select(Source)).scalars()}
+    exercises = db.execute(
+        select(Exercise).where(Exercise.merged_into_id.is_(None))
+    ).scalars().all()
+
+    for ex in exercises:
+        existing_urls = {r.url for r in ex.references}
+        # 1) exact source documents (aggregated records)
+        doc_refs = [
+            (es.source.slug, es.source.name,
+             es.source_document.url if es.source_document else es.source.homepage_url,
+             "demonstration")
+            for es in (ex.sources or [])
+            if (es.source_document and es.source_document.url)
+            or es.source.homepage_url
+        ]
+        # 2) region program pages (fallback, incl. curated records)
+        regions = [r.body_region.slug for r in ex.body_regions]
+        mapped: list[tuple[str, str, str, str]] = []
+        for region in regions:
+            mapped.extend(REGION_REFERENCES.get(region, []))
+        if not doc_refs and not mapped:
+            mapped = list(FALLBACK_REFERENCES)
+
+        for source_slug, label, url, kind in (doc_refs + mapped)[:4]:
+            if not url or url in existing_urls:
+                stats["skipped"] += 1
+                continue
+            db.add(ExerciseReference(
+                exercise_id=ex.id,
+                source_id=sources_by_slug[source_slug].id if source_slug in sources_by_slug else None,
+                label=label, url=url, kind=kind,
+            ))
+            existing_urls.add(url)
+            stats[kind] = stats.get(kind, 0) + 1
+
+    db.commit()
+    log.info("exercise references: %s", stats)
+    return stats

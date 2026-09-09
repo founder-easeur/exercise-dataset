@@ -72,6 +72,19 @@ def exercise_detail(db_ex: Exercise, *, include_research: bool = False) -> dict:
             for em in sorted(db_ex.exercise_muscles,
                              key=lambda m: ROLE_ORDER.get(m.role.value, 9))],
         "sources": [source_ref(s) for s in (db_ex.sources or [])],
+        "references": [
+            {
+                "label": r.label,
+                "url": r.url,
+                "kind": r.kind,
+                "source_slug": r.source.slug if r.source else None,
+                "source_name": r.source.name if r.source else None,
+                "domain": r.source.domain if r.source else None,
+                "authority": r.source.authority.value if r.source else None,
+                "license": r.source.license.value if r.source else None,
+            }
+            for r in (db_ex.references or [])
+        ],
         "merged_into_id": db_ex.merged_into_id,
     })
     if include_research:

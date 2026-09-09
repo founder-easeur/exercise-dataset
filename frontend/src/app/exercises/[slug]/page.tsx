@@ -239,10 +239,49 @@ export default async function ExerciseDetailPage({
         <div className="space-y-5">
           {ex.media && ex.media.length > 0 ? (
             <Card className="overflow-hidden">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={ex.media[0].url} alt={`Illustration of ${ex.name}`} className="h-48 w-full object-cover" />
+              <div className="flex aspect-[4/3] items-center justify-center bg-brand-50 p-2 dark:bg-brand-900/20">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src={ex.media[0].url} alt={`Illustration of ${ex.name}`}
+                  className="h-full w-full object-contain" />
+              </div>
               <div className="px-4 py-2.5 text-[11px] leading-relaxed text-muted">
-                {ex.media[0].credit}
+                {ex.media[0].credit} — for photo/video demonstrations see the
+                official references below.
+              </div>
+            </Card>
+          ) : null}
+
+          {ex.references && ex.references.length > 0 ? (
+            <Card className="p-5">
+              <h2 className="mb-1 text-sm font-semibold uppercase tracking-wide text-muted">
+                Official references
+              </h2>
+              <p className="mb-3 text-xs text-muted">
+                Authoritative pages where this exercise is described and demonstrated
+                (images, GIFs or video) — opens at the source.
+              </p>
+              <div className="space-y-2.5">
+                {ex.references.map((r, i) => (
+                  <a key={i} href={r.url} target="_blank" rel="noreferrer"
+                    className="block rounded-lg border border-app p-3 transition hover:border-brand-400">
+                    <div className="flex items-start justify-between gap-2">
+                      <div className="text-sm font-medium leading-snug">{r.label}</div>
+                      <span className={`mt-0.5 h-2 w-2 shrink-0 rounded-full ${
+                        r.authority === "high" ? "bg-emerald-500" : "bg-amber-500"
+                      }`} title={`${r.authority || "unknown"} authority`} />
+                    </div>
+                    <div className="mt-1 flex flex-wrap items-center gap-1.5 text-[11px] text-muted">
+                      {r.domain ? (
+                        <span className="rounded bg-slate-100 px-1.5 py-0.5 dark:bg-slate-800">
+                          {r.domain.replace(/^www\./, "")}
+                        </span>
+                      ) : null}
+                      <span className="capitalize">{r.kind}</span>
+                      {r.license ? <span>· {r.license.replace(/_/g, " ")}</span> : null}
+                      <span>· open source page ↗</span>
+                    </div>
+                  </a>
+                ))}
               </div>
             </Card>
           ) : null}

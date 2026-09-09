@@ -71,6 +71,7 @@ backend/
                          anatomy_mapper, normalize, dedup, validate, postprocess,
                          ai, ingest, report
     media_registry.py    region→illustration mapping + license metadata
+    taxonomy/reference_map.py  region→authoritative reference pages (links out)
     api/v1.py            All /api/v1 endpoints (single router file)
     cli.py               init-db | seed | drop-all | export | snapshot | serve |
                          pipeline {crawl|postprocess|report|run-all}
@@ -199,6 +200,11 @@ curated, 36 aggregated (pending_review), 184 active, 55 duplicate pairs queued,
   `audit_log`.
 - `sources` — license/commercial-use/attribution/robots posture per domain.
   `source_documents` — fetched pages (bounded excerpt, hash, word count).
+- `exercise_references` — outbound authoritative links per exercise: the exact
+  source document for aggregated records (kind=demonstration) and official
+  program pages per region for curated ones (kind=program/article). Seeded by
+  `services/seeder.seed_references` (idempotent on exercise_id+url). We link
+  to source media, never re-host it (D7).
 - `dataset_versions` — content-hashed snapshots (v0.1.0 = id 1).
 - Enum values live in `app/enums.py` and are DB-level `Enum` types.
 
@@ -249,6 +255,12 @@ Add vitest tests next to components.
 `app/taxonomy/anatomy_data.py` (respect `structure_type`; small/overlooked
 structures get `is_small_overlooked=True`), re-run `seed`, then check
 `/coverage` — coverage stats recompute automatically.
+
+**Add a reference link:** add the page to `app/taxonomy/reference_map.py`
+(REGION_REFERENCES), re-run `seed` (idempotent) — references appear on
+exercise detail pages and in the detail API. Direct exercise-level deep links
+(kind=demonstration) come from `source_documents` automatically for aggregated
+records.
 
 **New dataset version:** `app.cli snapshot vX.Y.Z --label … --notes …` then
 regenerate `exports/`. Never rewrite an existing version — versions are pins.

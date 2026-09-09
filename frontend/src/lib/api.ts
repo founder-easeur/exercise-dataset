@@ -75,6 +75,16 @@ export interface ProvenanceRef {
   confidence?: number | null;
   created_at?: string | null;
 }
+export interface ReferenceLink {
+  label: string;
+  url: string;
+  kind: string;
+  source_slug?: string | null;
+  source_name?: string | null;
+  domain?: string | null;
+  authority?: string | null;
+  license?: string | null;
+}
 export interface ExerciseDetail extends Omit<ExerciseSummary, "sources"> {
   movement_pattern?: string | null;
   instructions?: string | null;
@@ -86,6 +96,7 @@ export interface ExerciseDetail extends Omit<ExerciseSummary, "sources"> {
   joints: { slug: string; name: string; movement?: string | null }[];
   muscles: MuscleRef[];
   sources: SourceRef[];
+  references?: ReferenceLink[];
   provenance?: ProvenanceRef[];
   ai_generated_fields?: string[];
 }
