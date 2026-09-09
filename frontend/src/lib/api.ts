@@ -21,6 +21,15 @@ export interface MediaRef {
   file?: string;
   region?: string;
 }
+export interface SourceChip {
+  slug: string;
+  name: string;
+  domain: string;
+  url: string | null;
+  authority: string;
+  license: string;
+  attribution_required?: boolean;
+}
 export interface ExerciseSummary {
   id: number;
   slug: string;
@@ -39,6 +48,7 @@ export interface ExerciseSummary {
   origin: string;
   is_medical_claim: boolean;
   source_count: number;
+  sources?: SourceChip[];
   media?: MediaRef[];
 }
 export interface SourceRef {
@@ -65,7 +75,7 @@ export interface ProvenanceRef {
   confidence?: number | null;
   created_at?: string | null;
 }
-export interface ExerciseDetail extends ExerciseSummary {
+export interface ExerciseDetail extends Omit<ExerciseSummary, "sources"> {
   movement_pattern?: string | null;
   instructions?: string | null;
   breathing?: string | null;

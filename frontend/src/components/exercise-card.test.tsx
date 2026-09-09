@@ -50,7 +50,8 @@ describe("ExerciseCard", () => {
 
   it("labels non-muscle structures", () => {
     render(<ExerciseCard ex={base} />);
-    expect(screen.getAllByText(/fascia/).length).toBeGreaterThanOrEqual(2);
+    expect(screen.getByText(/Plantar Fascia/)).toBeInTheDocument();
+    expect(screen.getByText(/fascia/)).toBeInTheDocument(); // structure type annotated on chip
   });
 
   it("shows medical-claim badge only when flagged", () => {
@@ -60,8 +61,49 @@ describe("ExerciseCard", () => {
     expect(screen.getByText(/medical claim/i)).toBeInTheDocument();
   });
 
-  it("links to the detail page", () => {
+  it("links to the detail page via an overlay link", () => {
     render(<ExerciseCard ex={base} />);
-    expect(screen.getAllByRole("link")[0]).toHaveAttribute("href", "/exercises/neck-rotation");
+    expect(screen.getByRole("link", { name: "View Neck Rotation" }))
+      .toHaveAttribute("href", "/exercises/neck-rotation");
+  });
+
+  it("shows direct source links when sources are present", () => {
+    render(
+      <ExerciseCard
+        ex={{
+          ...base,
+          sources: [
+            {
+              slug: "orthoinfo-aaos",
+              name: "OrthoInfo — AAOS",
+              domain: "www.orthoinfo.org",
+              url: "https://www.orthoinfo.org/recovery/knee-conditioning-program/",
+              authority: "high",
+              license: "restricted",
+            },
+            {
+              slug: "versus-arthritis",
+              name: "Versus Arthritis",
+              domain: "www.arthritis-uk.org",
+              url: "https://www.arthritis-uk.org/exercise",
+              authority: "high",
+              license: "unknown",
+            },
+          ],
+        }}
+      />,
+    );
+    const external = screen.getByRole("link", { name: /orthoinfo\.org/ }) as HTMLAnchorElement;
+    expect(external).toHaveAttribute("href", "https://www.orthoinfo.org/recovery/knee-conditioning-program/");
+    expect(external).toHaveAttribute("target", "_blank");
+    expect(screen.getByRole("link", { name: /arthritis-uk\.org/ })).toBeInTheDocument();
+    // card link still present and distinct
+    expect(screen.getByRole("link", { name: "View Neck Rotation" })).toBeInTheDocument();
+    expect(screen.getByText("Source")).toBeInTheDocument();
+  });
+
+  it("labels curated records when no external sources exist", () => {
+    render(<ExerciseCard ex={base} />);
+    expect(screen.getByText("Curated by Easeur editorial team")).toBeInTheDocument();
   });
 });

@@ -1,15 +1,55 @@
 import Link from "next/link";
-import type { ExerciseSummary } from "@/lib/api";
+import type { ExerciseSummary, SourceChip } from "@/lib/api";
 import { ConfidenceBar, OriginBadge, ReviewStatusPill, MedicalBadge } from "./ui";
+
+/** Clickable source attribution chips (direct links to the original pages). */
+export function SourceChips({ sources, max = 3 }: { sources?: SourceChip[]; max?: number }) {
+  if (!sources || sources.length === 0) return null;
+  const shown = sources.slice(0, max);
+  return (
+    <div className="flex flex-wrap items-center gap-1.5">
+      {shown.map((s) =>
+        s.url ? (
+          <a
+            key={`${s.slug}-${s.url}`}
+            href={s.url}
+            target="_blank"
+            rel="noreferrer"
+            title={`${s.name} — ${s.license.replace(/_/g, " ")} license · ${s.authority} authority. Opens the original page.`}
+            className="relative z-10 inline-flex max-w-[170px] items-center gap-1 rounded-md border border-app bg-card px-1.5 py-0.5 text-[11px] text-muted transition hover:border-brand-400 hover:text-brand-600 dark:hover:border-brand-600 dark:hover:text-brand-400"
+          >
+            <span
+              className={`h-1.5 w-1.5 shrink-0 rounded-full ${
+                s.authority === "high" ? "bg-emerald-500" : "bg-amber-500"
+              }`}
+              title={`${s.authority} authority`}
+            />
+            <span className="truncate">{s.domain.replace(/^www\./, "")}</span>
+            <svg width="9" height="9" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" className="shrink-0 opacity-60">
+              <path d="M7 17 17 7M9 7h8v8" />
+            </svg>
+          </a>
+        ) : null,
+      )}
+      {sources.length > max ? (
+        <span className="text-[11px] text-muted">+{sources.length - max} more</span>
+      ) : null}
+    </div>
+  );
+}
 
 export function ExerciseCard({ ex }: { ex: ExerciseSummary }) {
   const region = ex.body_regions[0];
   const image = ex.media?.[0];
   return (
-    <Link
-      href={`/exercises/${ex.slug}`}
-      className="card group flex flex-col overflow-hidden transition hover:-translate-y-0.5 hover:border-brand-400 hover:shadow-md dark:hover:border-brand-700"
-    >
+    <div className="card group relative flex flex-col overflow-hidden transition hover:-translate-y-0.5 hover:border-brand-400 hover:shadow-md dark:hover:border-brand-700">
+      {/* Whole-card link overlay — keeps HTML valid (no nested anchors) while
+          source chips below sit above it with relative z-10. */}
+      <Link
+        href={`/exercises/${ex.slug}`}
+        className="absolute inset-0 z-0"
+        aria-label={`View ${ex.name}`}
+      />
       {image ? (
         <div className="relative h-28 w-full overflow-hidden bg-brand-50 dark:bg-brand-900/20">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -55,6 +95,17 @@ export function ExerciseCard({ ex }: { ex: ExerciseSummary }) {
             <span className="text-[11px] text-muted">+{ex.primary_muscles.length - 3} more</span>
           ) : null}
         </div>
+
+        {/* Source attribution — direct links so users can verify the origin */}
+        {ex.sources && ex.sources.length > 0 ? (
+          <div className="relative z-10">
+            <div className="mb-1 text-[10px] font-medium uppercase tracking-wide text-muted">Source</div>
+            <SourceChips sources={ex.sources} />
+          </div>
+        ) : ex.origin === "curated" ? (
+          <div className="text-[11px] text-muted">Curated by Easeur editorial team</div>
+        ) : null}
+
         <div className="mt-auto flex items-center justify-between gap-2 pt-1">
           <div className="flex items-center gap-1.5">
             <ReviewStatusPill status={ex.review_status} />
@@ -71,6 +122,6 @@ export function ExerciseCard({ ex }: { ex: ExerciseSummary }) {
           </div>
         </div>
       </div>
-    </Link>
+    </div>
   );
 }

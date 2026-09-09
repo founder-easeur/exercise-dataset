@@ -33,6 +33,19 @@ def exercise_summary(ex: Exercise) -> dict:
         "origin": ex.origin.value,
         "is_medical_claim": ex.is_medical_claim,
         "source_count": len(ex.sources or []),
+        "sources": [
+            {
+                "slug": es.source.slug,
+                "name": es.source.name,
+                "domain": es.source.domain,
+                "url": (es.source_document.url
+                        if es.source_document else es.source.homepage_url),
+                "authority": es.source.authority.value,
+                "license": es.source.license.value,
+                "attribution_required": es.source.attribution_required,
+            }
+            for es in (ex.sources or [])[:4]
+        ],
         "media": resolve_media(ex),
     }
 

@@ -298,6 +298,20 @@ function DuplicatePairCard({
                 <div>Regions: {ex.body_regions.map((r) => r.name).join(", ") || "—"}</div>
                 <div>Muscles: {ex.all_muscles.map((m) => m.name).slice(0, 4).join(", ") || "—"}</div>
                 <div>Equipment: {ex.equipment.join(", ") || "none"}</div>
+                {ex.sources && ex.sources.length > 0 ? (
+                  <div className="flex flex-wrap items-center gap-1 pt-1">
+                    <span>sources:</span>
+                    {ex.sources.slice(0, 3).map((s) =>
+                      s.url ? (
+                        <a key={`${s.slug}-${s.url}`} href={s.url} target="_blank" rel="noreferrer"
+                          title={s.name}
+                          className="inline-flex items-center gap-1 rounded-md border border-app px-1.5 py-0.5 transition hover:border-brand-400 hover:text-brand-600 dark:hover:text-brand-400">
+                          {s.domain.replace(/^www\./, "")} ↗
+                        </a>
+                      ) : null,
+                    )}
+                  </div>
+                ) : null}
                 <div className="flex items-center gap-2 pt-1">
                   <ConfidenceBar value={ex.confidence} />
                   {ex.source_count > 0 ? <span>· {ex.source_count} sources</span> : null}

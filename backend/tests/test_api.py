@@ -46,6 +46,28 @@ def test_consumer_default_returns_approved_only(client, seeded):
     assert r.json()["total"] == 148  # curated seeds are approved
 
 
+def test_list_items_include_source_links(client, db, seeded):
+    from sqlalchemy import select
+    from app.models import Exercise, ExerciseSource, Source, SourceDocument
+    ex = db.execute(select(Exercise).limit(1)).scalar_one()
+    src = db.execute(select(Source).where(Source.slug == "orthoinfo-aaos")).scalar_one()
+    doc = SourceDocument(source_id=src.id, url="https://www.orthoinfo.org/recovery/x/", title="X")
+    db.add(doc); db.flush()
+    db.add(ExerciseSource(exercise_id=ex.id, source_id=src.id, source_document_id=doc.id))
+    db.commit()
+    r = client.get("/api/v1/exercises", params={"status": "all"})
+    item = next(i for i in r.json()["items"] if i["slug"] == ex.slug)
+    assert item["sources"], "source chips missing from list item"
+    chip = item["sources"][0]
+    assert chip["url"] == "https://www.orthoinfo.org/recovery/x/"
+    assert chip["domain"] == "www.orthoinfo.org"
+    assert chip["authority"] == "high"
+    assert chip["license"] == "restricted"
+    # exercises without linked pages expose an empty list, not null
+    other = next(i for i in r.json()["items"] if i["source_count"] == 0)
+    assert other["sources"] == []
+
+
 def test_filters(client, seeded):
     # body region
     r = client.get("/api/v1/exercises", params={"status": "all", "body_region": "neck"})

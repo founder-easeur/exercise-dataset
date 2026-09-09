@@ -109,7 +109,8 @@ def list_exercises(db: Session, filters: ExerciseFilters, page: int = 1,
             selectinload(Exercise.exercise_muscles).selectinload(ExerciseMuscle.muscle),
             selectinload(Exercise.body_regions).selectinload(ExerciseBodyRegion.body_region),
             selectinload(Exercise.equipment).selectinload(ExerciseEquipment.equipment),
-            selectinload(Exercise.sources),
+            selectinload(Exercise.sources).selectinload(ExerciseSource.source),
+            selectinload(Exercise.sources).selectinload(ExerciseSource.source_document),
         )
         .order_by(order)
         .offset((page - 1) * page_size)
