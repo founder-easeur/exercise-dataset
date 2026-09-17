@@ -1,0 +1,12 @@
+{
+  "description": "Snapshot corpus for replay-mode aggregation. Pages fetched 2026-09-04 from reputable sources via Arena fetch infrastructure because the build sandbox has no general egress. Extraction/normalization/dedup/validation stages are identical to live mode.",
+  "fetched_at": "2026-09-04",
+  "pages": [
+    {"url": "https://www.orthoinfo.org/recovery/rotator-cuff-and-shoulder-conditioning-program/", "file": "pages/orthoinfo-shoulder.md", "source_slug": "orthoinfo-aaos", "title": "Rotator Cuff and Shoulder Conditioning Program"},
+    {"url": "https://www.orthoinfo.org/recovery/knee-conditioning-program/", "file": "pages/orthoinfo-knee.md", "source_slug": "orthoinfo-aaos", "title": "Knee Conditioning Program"},
+    {"url": "https://www.orthoinfo.org/recovery/foot-and-ankle-conditioning-program/", "file": "pages/orthoinfo-foot-ankle.md", "source_slug": "orthoinfo-aaos", "title": "Foot and Ankle Conditioning Program"},
+    {"url": "https://www.arthritis-uk.org/information-and-support/living-with-arthritis/health-and-wellbeing/exercising-with-arthritis/exercises-for-healthy-joints/exercises-for-the-neck/", "file": "pages/arthritisuk-neck.md", "source_slug": "versus-arthritis", "title": "Exercises for the neck"},
+    {"url": "https://www.arthritis-uk.org/information-and-support/living-with-arthritis/health-and-wellbeing/exercising-with-arthritis/exercises-for-healthy-joints/exercises-for-the-fingers-hands-and-wrists/", "file": "pages/arthritisuk-hand-wrist.md", "source_slug": "versus-arthritis", "title": "Exercises for the fingers, hands and wrists"},
+    {"url": "https://www.nhsinform.scot/illnesses-and-conditions/muscle-bone-and-joints/arm-shoulder-and-hand-problems-and-conditions/exercises-for-wrist-hand-and-finger-problems", "file": "pages/nhsinform-hand-wrist.md", "source_slug": "nhs-inform-scotland", "title": "Exercises for wrist, hand and finger problems"}
+  ]
+}

@@ -1,0 +1,10 @@
+Sitemap: https://www.arthritis-uk.org/sitemap-xml
+
+User-agent: *
+Disallow:
+
+User-agent: IBM-APPConnect/V1
+Allow: /
+
+User-agent: SiteAuditBot
+Allow: /
